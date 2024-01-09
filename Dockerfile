@@ -1,4 +1,4 @@
-FROM alpine:3.1
+FROM alpine:3.19
 # hadolint ignore=DL3018
 RUN apk add --no-cache bash git inotify-tools openssh
 
