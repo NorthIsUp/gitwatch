@@ -8,4 +8,6 @@ COPY gitwatch.sh ./
 
 RUN chmod 755 -- *.sh
 
+RUN git config --global credential.helper '!f() { sleep 1; echo "username=git token=$GITHUB_TOKEN"; }; f'
+
 ENTRYPOINT ["./gitwatch.sh"]
