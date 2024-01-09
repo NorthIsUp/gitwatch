@@ -1,0 +1,724 @@
+{
+  "version": 1,
+  "minor_version": 12,
+  "key": "core.entity_registry",
+  "data": {
+    "entities": [
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "82d6901b6182af27a5405e71ecb2454c",
+        "device_class": null,
+        "device_id": "3df13dff59cb06da15038bf6a783419c",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_dawn",
+        "hidden_by": null,
+        "icon": null,
+        "id": "1b4fafe8739f49131c9bbbbecea240c4",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next dawn",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_dawn",
+        "unique_id": "82d6901b6182af27a5405e71ecb2454c-next_dawn",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "82d6901b6182af27a5405e71ecb2454c",
+        "device_class": null,
+        "device_id": "3df13dff59cb06da15038bf6a783419c",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_dusk",
+        "hidden_by": null,
+        "icon": null,
+        "id": "a41dde8923d10ea8e57b8e00b910b581",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next dusk",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_dusk",
+        "unique_id": "82d6901b6182af27a5405e71ecb2454c-next_dusk",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "82d6901b6182af27a5405e71ecb2454c",
+        "device_class": null,
+        "device_id": "3df13dff59cb06da15038bf6a783419c",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_midnight",
+        "hidden_by": null,
+        "icon": null,
+        "id": "9faf8a04d2fe6c4a4d846d75560875d3",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next midnight",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_midnight",
+        "unique_id": "82d6901b6182af27a5405e71ecb2454c-next_midnight",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "82d6901b6182af27a5405e71ecb2454c",
+        "device_class": null,
+        "device_id": "3df13dff59cb06da15038bf6a783419c",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_noon",
+        "hidden_by": null,
+        "icon": null,
+        "id": "37bd6bf4d928a76f2efeed22db14fbc7",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next noon",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_noon",
+        "unique_id": "82d6901b6182af27a5405e71ecb2454c-next_noon",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "82d6901b6182af27a5405e71ecb2454c",
+        "device_class": null,
+        "device_id": "3df13dff59cb06da15038bf6a783419c",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_rising",
+        "hidden_by": null,
+        "icon": null,
+        "id": "b70773c41fef6c3eb5f495e24ac0658a",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next rising",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_rising",
+        "unique_id": "82d6901b6182af27a5405e71ecb2454c-next_rising",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "82d6901b6182af27a5405e71ecb2454c",
+        "device_class": null,
+        "device_id": "3df13dff59cb06da15038bf6a783419c",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_setting",
+        "hidden_by": null,
+        "icon": null,
+        "id": "5f448b3e63532395679de8fed5c5bba8",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next setting",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_setting",
+        "unique_id": "82d6901b6182af27a5405e71ecb2454c-next_setting",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "82d6901b6182af27a5405e71ecb2454c",
+        "device_class": null,
+        "device_id": "3df13dff59cb06da15038bf6a783419c",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_solar_elevation",
+        "hidden_by": null,
+        "icon": null,
+        "id": "384eadbed1a1e3630c6cfd3319c35033",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:theme-light-dark",
+        "original_name": "Solar elevation",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "solar_elevation",
+        "unique_id": "82d6901b6182af27a5405e71ecb2454c-solar_elevation",
+        "previous_unique_id": null,
+        "unit_of_measurement": "°"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "82d6901b6182af27a5405e71ecb2454c",
+        "device_class": null,
+        "device_id": "3df13dff59cb06da15038bf6a783419c",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_solar_azimuth",
+        "hidden_by": null,
+        "icon": null,
+        "id": "117887fb5fa2fa66934483ab0de708ad",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:sun-angle",
+        "original_name": "Solar azimuth",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "solar_azimuth",
+        "unique_id": "82d6901b6182af27a5405e71ecb2454c-solar_azimuth",
+        "previous_unique_id": null,
+        "unit_of_measurement": "°"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "82d6901b6182af27a5405e71ecb2454c",
+        "device_class": null,
+        "device_id": "3df13dff59cb06da15038bf6a783419c",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_solar_rising",
+        "hidden_by": null,
+        "icon": null,
+        "id": "c66ab51bf4accdeb478385f51d534cd0",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Solar rising",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "solar_rising",
+        "unique_id": "82d6901b6182af27a5405e71ecb2454c-solar_rising",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {},
+        "config_entry_id": "1a77c0fef9ec5e98757010a599b4a657",
+        "device_class": null,
+        "device_id": "ab879556ebe9e46c2101dba3b688625d",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.kqkdy7f9hg",
+        "hidden_by": null,
+        "icon": null,
+        "id": "42efbd88143584693207be5adb623447",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": null,
+        "platform": "cast",
+        "supported_features": 152461,
+        "translation_key": null,
+        "unique_id": "22589f76-fde7-3378-265d-f0e91480bc63",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": null,
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "person.northisup",
+        "hidden_by": null,
+        "icon": null,
+        "id": "6fed6534a295d5ba75c11f179723163e",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "northisup",
+        "platform": "person",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "northisup",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "53b1c5c5b48a73d7ce610e372a45a496",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "tts.google_en_com",
+        "hidden_by": null,
+        "icon": null,
+        "id": "68c8bb3d4c1daf2c5534cb2f48bc76ea",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Google en com",
+        "platform": "google_translate",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "53b1c5c5b48a73d7ce610e372a45a496",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "c1b7247fc8717949785ecf643687550c",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "todo.shopping_list",
+        "hidden_by": null,
+        "icon": null,
+        "id": "6eea85d9acb112b17170363e501abf71",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cart",
+        "original_name": "Shopping List",
+        "platform": "shopping_list",
+        "supported_features": 15,
+        "translation_key": "shopping_list",
+        "unique_id": "c1b7247fc8717949785ecf643687550c",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "ede88feaf6fbfb25ea51878ec97ccee4",
+        "device_class": null,
+        "device_id": "b584f770e6a90af425c014b829bbf778",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "weather.forecast_home",
+        "hidden_by": null,
+        "icon": null,
+        "id": "edd6d03cdcb36a1f658969fb73a478ef",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Home",
+        "platform": "met",
+        "supported_features": 3,
+        "translation_key": null,
+        "unique_id": "home",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "6410c5676f2542c70411260ff229b7c9",
+        "device_class": null,
+        "device_id": "3634718dd26fe5f2aef95be9218ffcaf",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.generic_pcl_color_laser_cups_gutenprint_v5_3_3_uptime",
+        "hidden_by": null,
+        "icon": null,
+        "id": "680287e2589924ca5edc890274171456",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:clock-outline",
+        "original_name": "Uptime",
+        "platform": "ipp",
+        "supported_features": 0,
+        "translation_key": "uptime",
+        "unique_id": "09b290fc-1069-38d4-7c23-78c52dff352d_uptime",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "6410c5676f2542c70411260ff229b7c9",
+        "device_class": null,
+        "device_id": "3634718dd26fe5f2aef95be9218ffcaf",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.generic_pcl_color_laser_cups_gutenprint_v5_3_3_belt_unit",
+        "hidden_by": null,
+        "icon": null,
+        "id": "557a00986be6b32ebd8cd82a141ba038",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:water",
+        "original_name": "Belt Unit",
+        "platform": "ipp",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "09b290fc-1069-38d4-7c23-78c52dff352d_marker_0",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "6410c5676f2542c70411260ff229b7c9",
+        "device_class": null,
+        "device_id": "3634718dd26fe5f2aef95be9218ffcaf",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.generic_pcl_color_laser_cups_gutenprint_v5_3_3_black_toner_cartridge",
+        "hidden_by": null,
+        "icon": null,
+        "id": "21326feee71ec31c3c3f0eb48f929136",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:water",
+        "original_name": "Black Toner Cartridge",
+        "platform": "ipp",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "09b290fc-1069-38d4-7c23-78c52dff352d_marker_1",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "6410c5676f2542c70411260ff229b7c9",
+        "device_class": null,
+        "device_id": "3634718dd26fe5f2aef95be9218ffcaf",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.generic_pcl_color_laser_cups_gutenprint_v5_3_3_cyan_toner_cartridge",
+        "hidden_by": null,
+        "icon": null,
+        "id": "6bd4fe6e0dd03a8bf0498ee137ffc620",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:water",
+        "original_name": "Cyan Toner Cartridge",
+        "platform": "ipp",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "09b290fc-1069-38d4-7c23-78c52dff352d_marker_2",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "6410c5676f2542c70411260ff229b7c9",
+        "device_class": null,
+        "device_id": "3634718dd26fe5f2aef95be9218ffcaf",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.generic_pcl_color_laser_cups_gutenprint_v5_3_3_drum_unit",
+        "hidden_by": null,
+        "icon": null,
+        "id": "db905731ae852a209b9ab03b10da9ee5",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:water",
+        "original_name": "Drum Unit",
+        "platform": "ipp",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "09b290fc-1069-38d4-7c23-78c52dff352d_marker_3",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "6410c5676f2542c70411260ff229b7c9",
+        "device_class": null,
+        "device_id": "3634718dd26fe5f2aef95be9218ffcaf",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.generic_pcl_color_laser_cups_gutenprint_v5_3_3_magenta_toner_cartridge",
+        "hidden_by": null,
+        "icon": null,
+        "id": "b918cfb9d1df3d81b1d3b4773bd8feb6",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:water",
+        "original_name": "Magenta Toner Cartridge",
+        "platform": "ipp",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "09b290fc-1069-38d4-7c23-78c52dff352d_marker_4",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "6410c5676f2542c70411260ff229b7c9",
+        "device_class": null,
+        "device_id": "3634718dd26fe5f2aef95be9218ffcaf",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.generic_pcl_color_laser_cups_gutenprint_v5_3_3_waste_toner_box",
+        "hidden_by": null,
+        "icon": null,
+        "id": "1faf628b6c40aa30e53afbd26792d864",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:water",
+        "original_name": "Waste Toner Box",
+        "platform": "ipp",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "09b290fc-1069-38d4-7c23-78c52dff352d_marker_5",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "6410c5676f2542c70411260ff229b7c9",
+        "device_class": null,
+        "device_id": "3634718dd26fe5f2aef95be9218ffcaf",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.generic_pcl_color_laser_cups_gutenprint_v5_3_3_yellow_toner_cartridge",
+        "hidden_by": null,
+        "icon": null,
+        "id": "295406157499595e63b47c5e07b10573",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:water",
+        "original_name": "Yellow Toner Cartridge",
+        "platform": "ipp",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "09b290fc-1069-38d4-7c23-78c52dff352d_marker_6",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "options": [
+            "idle",
+            "printing",
+            "stopped"
+          ]
+        },
+        "config_entry_id": "6410c5676f2542c70411260ff229b7c9",
+        "device_class": null,
+        "device_id": "3634718dd26fe5f2aef95be9218ffcaf",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.generic_pcl_color_laser_cups_gutenprint_v5_3_3",
+        "hidden_by": null,
+        "icon": null,
+        "id": "c8c2c9c5bf87208e17da2269bf17c18f",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "enum",
+        "original_icon": "mdi:printer",
+        "original_name": null,
+        "platform": "ipp",
+        "supported_features": 0,
+        "translation_key": "printer",
+        "unique_id": "09b290fc-1069-38d4-7c23-78c52dff352d_printer",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      }
+    ],
+    "deleted_entities": []
+  }
+}

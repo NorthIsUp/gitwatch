@@ -1,0 +1,174 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "82d6901b6182af27a5405e71ecb2454c",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "9520f623ddbec948063771baed7bd16c",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "thread",
+        "title": "Thread",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "1a77c0fef9ec5e98757010a599b4a657",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "cast",
+        "title": "Google Cast",
+        "data": {
+          "ignore_cec": [],
+          "known_hosts": [],
+          "uuid": [],
+          "user_id": "5d2ba8a9aab64ec59c26393e40ef17ca"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "cast",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "f34001b4e8a2d5b0116d204041e5f41b",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "bluetooth",
+        "title": "DC:A6:32:1E:9F:2D",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "unique_id": "DC:A6:32:1E:9F:2D",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "c1b7247fc8717949785ecf643687550c",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "shopping_list",
+        "title": "Shopping list",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": "shopping_list",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "53b1c5c5b48a73d7ce610e372a45a496",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "google_translate",
+        "title": "Google Translate text-to-speech",
+        "data": {
+          "language": "en",
+          "tld": "com"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "ede88feaf6fbfb25ea51878ec97ccee4",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "met",
+        "title": "Home",
+        "data": {
+          "track_home": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "f013cc0f1d702191a97cbfa4a3dbd5ea",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "radio_browser",
+        "title": "Radio Browser",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "6410c5676f2542c70411260ff229b7c9",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "ipp",
+        "title": "Oh Brother! @ mominetti",
+        "data": {
+          "host": "2601:645:8000:66:aabc:e147:1389:71a0",
+          "port": 631,
+          "ssl": true,
+          "verify_ssl": false,
+          "base_path": "/printers/Brother_HL-4570CDW_series_brother_driver",
+          "name": "Oh Brother! @ mominetti",
+          "uuid": "09b290fc-1069-38d4-7c23-78c52dff352d"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "09b290fc-1069-38d4-7c23-78c52dff352d",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "c9ce8a5c487677faf3e2836ace166d3b",
+        "version": 4,
+        "minor_version": 1,
+        "domain": "zha",
+        "title": "/dev/ttyUSB0",
+        "data": {
+          "device": {
+            "path": "/dev/ttyUSB0",
+            "baudrate": 115200,
+            "flow_control": null
+          },
+          "radio_type": "znp"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      }
+    ]
+  }
+}

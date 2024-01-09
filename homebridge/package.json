@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@0x5e/homebridge-tuya-platform": "1.7.0-beta.52",
+    "@tuxbox/homebridge-homeassistant": "^1.0.6-beta.12",
+    "homebridge": "1.7.0",
+    "homebridge-github-backup": "^1.0.0",
+    "homebridge-z2m": "1.9.3"
+  }
+}

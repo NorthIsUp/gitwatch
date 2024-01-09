@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "id": "northisup",
+        "name": "northisup",
+        "user_id": "589edaa0943d4ed6b9c16d0ff01f499b",
+        "device_trackers": []
+      }
+    ]
+  }
+}

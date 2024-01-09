@@ -1,0 +1,212 @@
+[
+  {
+    "active_time": 1704361784,
+    "biz_type": 0,
+    "category": "szjqr",
+    "create_time": 1704361784,
+    "icon": "smart/icon/ay1550298204274iXb1I/2bd7dac6905edf03347e1c140b40fc2a.jpg",
+    "id": "eb88d7qheheyaicr",
+    "ip": "",
+    "lat": "",
+    "local_key": "(Y*Lyn+^wVL3Y9+t",
+    "lon": "",
+    "model": "",
+    "name": "Fingerbot  Sense",
+    "online": true,
+    "owner_id": "180891657",
+    "product_id": "avokow8l",
+    "product_name": "Fingerbot  Sense",
+    "status": [
+      {
+        "code": "arm_down_percent",
+        "value": 60
+      },
+      {
+        "code": "arm_up_percent",
+        "value": 0
+      },
+      {
+        "code": "battery_percentage",
+        "value": 85
+      },
+      {
+        "code": "click_sustain_time",
+        "value": 5
+      },
+      {
+        "code": "mode",
+        "value": "click"
+      },
+      {
+        "code": "switch",
+        "value": false
+      },
+      {
+        "code": "tap_enable",
+        "value": true
+      }
+    ],
+    "sub": true,
+    "time_zone": "-08:00",
+    "uid": "az1703226782376TkGo5",
+    "update_time": 1704779791,
+    "uuid": "tuya88648ac482ca",
+    "schema": [
+      {
+        "code": "arm_down_percent",
+        "mode": "rw",
+        "type": "Integer",
+        "property": {
+          "unit": "",
+          "min": 51,
+          "max": 100,
+          "scale": 0,
+          "step": 1
+        }
+      },
+      {
+        "code": "arm_up_percent",
+        "mode": "rw",
+        "type": "Integer",
+        "property": {
+          "min": 0,
+          "max": 50,
+          "scale": 0,
+          "step": 1
+        }
+      },
+      {
+        "code": "battery_percentage",
+        "mode": "ro",
+        "type": "Integer",
+        "property": {
+          "unit": "%",
+          "min": 0,
+          "max": 100,
+          "scale": 0,
+          "step": 1
+        }
+      },
+      {
+        "code": "click_sustain_time",
+        "mode": "rw",
+        "type": "Integer",
+        "property": {
+          "unit": "s",
+          "min": 0,
+          "max": 10,
+          "scale": 0,
+          "step": 1
+        }
+      },
+      {
+        "code": "mode",
+        "mode": "rw",
+        "type": "Enum",
+        "property": {
+          "range": [
+            "click",
+            "switch"
+          ]
+        }
+      },
+      {
+        "code": "switch",
+        "mode": "rw",
+        "type": "Boolean",
+        "property": {}
+      },
+      {
+        "code": "tap_enable",
+        "mode": "rw",
+        "type": "Boolean",
+        "property": {}
+      }
+    ]
+  },
+  {
+    "active_time": 1704361803,
+    "biz_type": 0,
+    "category": "wg2",
+    "create_time": 1703176085,
+    "icon": "smart/icon/bay16677017786803o2u/505f126fae232e4140fd1cf619faf626.png",
+    "id": "ebc1eabd0700f81b1ctuwi",
+    "ip": "76.133.96.34",
+    "lat": "37.7800",
+    "local_key": "5sahPKZAX]A9`DoR",
+    "lon": "-122.4300",
+    "model": "LKGWBZ01",
+    "name": "Smart Gateway",
+    "online": true,
+    "owner_id": "180891657",
+    "product_id": "bl5aaeintogoh84r",
+    "product_name": "Smart Gateway",
+    "status": [
+      {
+        "code": "alarm_active",
+        "value": ""
+      },
+      {
+        "code": "factory_reset",
+        "value": false
+      },
+      {
+        "code": "master_state",
+        "value": "normal"
+      },
+      {
+        "code": "switch_alarm_sound",
+        "value": false
+      }
+    ],
+    "sub": true,
+    "time_zone": "-08:00",
+    "uid": "az1703226782376TkGo5",
+    "update_time": 1704741389,
+    "uuid": "bae5e718c139fc73",
+    "schema": [
+      {
+        "code": "alarm_active",
+        "mode": "rw",
+        "type": "String",
+        "property": {
+          "maxlen": 255
+        }
+      },
+      {
+        "code": "factory_reset",
+        "mode": "rw",
+        "type": "Boolean",
+        "property": {}
+      },
+      {
+        "code": "master_state",
+        "mode": "rw",
+        "type": "Enum",
+        "property": {
+          "range": [
+            "normal",
+            "alarm"
+          ]
+        }
+      },
+      {
+        "code": "switch_alarm_sound",
+        "mode": "rw",
+        "type": "Boolean",
+        "property": {}
+      }
+    ]
+  },
+  {
+    "id": "Urfjl4U3yIAlKi2k",
+    "uuid": "Urfjl4U3yIAlKi2k",
+    "name": "Door Buzzer",
+    "owner_id": "180891657",
+    "product_id": "scene",
+    "category": "scene",
+    "schema": [],
+    "status": [],
+    "online": true
+  }
+]

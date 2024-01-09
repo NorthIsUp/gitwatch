@@ -1,0 +1,11 @@
+info  2024-01-08 22:45:26: Logging to console and directory: '/app/data/log/2024-01-08.22-45-26' filename: log.txt
+info  2024-01-08 22:45:26: Starting Zigbee2MQTT version 1.35.1 (commit #9eaaa0f)
+info  2024-01-08 22:45:26: Starting zigbee-herdsman (0.30.0)
+error 2024-01-08 22:45:47: Error while starting zigbee-herdsman
+error 2024-01-08 22:45:47: Failed to start zigbee
+error 2024-01-08 22:45:47: Check https://www.zigbee2mqtt.io/guide/installation/20_zigbee2mqtt-fails-to-start.html for possible solutions
+error 2024-01-08 22:45:47: Exiting...
+error 2024-01-08 22:45:47: Error: SRSP - SYS - getExtAddr after 6000ms
+    at Timeout._onTimeout (/app/node_modules/zigbee-herdsman/src/utils/waitress.ts:64:35)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)

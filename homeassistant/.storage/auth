@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "auth",
+  "data": {
+    "users": [
+      {
+        "id": "aa2703de74df4d92ac23d2e21a804ab9",
+        "group_ids": [
+          "system-read-only"
+        ],
+        "is_owner": false,
+        "is_active": true,
+        "name": "Home Assistant Content",
+        "system_generated": true,
+        "local_only": false
+      },
+      {
+        "id": "5d2ba8a9aab64ec59c26393e40ef17ca",
+        "group_ids": [
+          "system-admin"
+        ],
+        "is_owner": false,
+        "is_active": true,
+        "name": "Home Assistant Cast",
+        "system_generated": true,
+        "local_only": false
+      },
+      {
+        "id": "589edaa0943d4ed6b9c16d0ff01f499b",
+        "group_ids": [
+          "system-admin"
+        ],
+        "is_owner": true,
+        "is_active": true,
+        "name": "northisup",
+        "system_generated": false,
+        "local_only": false
+      }
+    ],
+    "groups": [
+      {
+        "id": "system-admin",
+        "name": "Administrators"
+      },
+      {
+        "id": "system-users",
+        "name": "Users"
+      },
+      {
+        "id": "system-read-only",
+        "name": "Read Only"
+      }
+    ],
+    "credentials": [
+      {
+        "id": "dc8ad8ad4df34ac3bf1989a3b908fb11",
+        "user_id": "589edaa0943d4ed6b9c16d0ff01f499b",
+        "auth_provider_type": "homeassistant",
+        "auth_provider_id": null,
+        "data": {
+          "username": "northisup"
+        }
+      }
+    ],
+    "refresh_tokens": [
+      {
+        "id": "e600667aa26947299bd5a241e9b2544a",
+        "user_id": "aa2703de74df4d92ac23d2e21a804ab9",
+        "client_id": null,
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "system",
+        "created_at": "2024-01-09T04:32:12.549429+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "93cdbe55f031a416f400fb7ad87d7214f4c508621a9499f751536d17abf258f16adf2994ab6c307ab1460687256429a171f32fd97a05b1af198a9e0f2daf7e47",
+        "jwt_key": "fafe33e9f3e09c2b1027bba1930bfaf0e2186cd2e96aeb77bf82817b2b072c338633e6f74057cc0773a1a6c9133c49f5d0c2b853c2a3298a2d6a0bf72930e110",
+        "last_used_at": null,
+        "last_used_ip": null,
+        "credential_id": null,
+        "version": "2024.1.2"
+      },
+      {
+        "id": "3453b70a1eff479b9937b8be9bacec59",
+        "user_id": "5d2ba8a9aab64ec59c26393e40ef17ca",
+        "client_id": null,
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "system",
+        "created_at": "2024-01-09T04:33:41.365740+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "171e070e0d5e492c4d3f29c7c0eada0a6554dd545a40c2547d8b8f2e8d3060ebda66e35cb24cf3595f0c22773f61254c25eaa4c17ea8778c6848c0f1608d8f81",
+        "jwt_key": "6f001145489f2958b394f199fa789a6daca2c2b919501ef5e251d8bd82af68ea0ebef542e841f30774b76a8178ad05644ddb15491083b92ff4cebd48b6d948cb",
+        "last_used_at": null,
+        "last_used_ip": null,
+        "credential_id": null,
+        "version": "2024.1.2"
+      },
+      {
+        "id": "df667b3f90b64cd2b663549868cadfc9",
+        "user_id": "589edaa0943d4ed6b9c16d0ff01f499b",
+        "client_id": "http://monock.local:8123/",
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "normal",
+        "created_at": "2024-01-09T04:36:20.802968+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "4440df6d384ce0a51bda41f8304b9f670791e2081ecdeed76026987701392d352e484b7e43ae7e7012ff5fdd819984c1b790ee9adf576b3dec18d8675f8a2cd1",
+        "jwt_key": "4ce36d13667b8254327e7373e8ef348c8fe1a27b7a03bf525c95068d1aac15081721a6c490e1567e141bfd3efec5dbf32aee654ca3b8a947b2207d10a63e724a",
+        "last_used_at": "2024-01-09T04:36:20.803162+00:00",
+        "last_used_ip": "2601:645:8000:66:9b9:edb9:fca:c504",
+        "credential_id": "dc8ad8ad4df34ac3bf1989a3b908fb11",
+        "version": "2024.1.2"
+      },
+      {
+        "id": "8cfbfc4dbece4ae5a05afdce4ccfdfe3",
+        "user_id": "589edaa0943d4ed6b9c16d0ff01f499b",
+        "client_id": "http://monock.local:8123/",
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "normal",
+        "created_at": "2024-01-09T04:46:38.190251+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "df4f958e0285003834a5e87e39b2e995d9ff0b851c610da304cbd8e038ba84bb2e26a00d09e9df92b6ad94c73584ebfdee9b4bb353fa19539e129a8af6aefc50",
+        "jwt_key": "630950f273d03ddab14d756e3e70261f1eb48e599dab85e1d2adec35e44e0976d9bc7256ad97bd93263ad03b14e54ed76df41ce683c08b66ebbcf3c62595356e",
+        "last_used_at": "2024-01-09T06:06:50.985421+00:00",
+        "last_used_ip": "2601:645:8000:66:9b9:edb9:fca:c504",
+        "credential_id": "dc8ad8ad4df34ac3bf1989a3b908fb11",
+        "version": "2024.1.2"
+      }
+    ]
+  }
+}

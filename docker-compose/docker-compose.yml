@@ -1,0 +1,74 @@
+version: '3'
+
+# ok
+services:
+  homebridge:
+    container_name: homebridge
+    image: homebridge/homebridge:latest
+    restart: always
+    network_mode: host
+    volumes:
+      - ./volumes/homebridge:/homebridge
+    # devices:
+    #   - /dev/ttyUSB0:/dev/ttyUSB0
+    logging:
+      driver: json-file
+      options:
+        max-size: '10m'
+        max-file: '1'
+    healthcheck:
+      test: curl --fail localhost:8581 || exit 1
+      interval: 60s
+      retries: 5
+      start_period: 300s
+      timeout: 2s
+
+  homeassistant:
+    container_name: homeassistant
+    image: 'ghcr.io/home-assistant/home-assistant:stable'
+    volumes:
+      - ./volumes/homeassistant:/config
+      - /etc/localtime:/etc/localtime:ro
+      - /run/dbus:/run/dbus:ro
+    # devices:
+    #   - /dev/ttyUSB0:/dev/ttyUSB0
+    restart: unless-stopped
+    privileged: true
+    network_mode: host
+
+  mqtt:
+    image: eclipse-mosquitto:2.0
+    restart: unless-stopped
+    volumes:
+      - './mosquitto-data:/mosquitto'
+    ports:
+      - '1883:1883'
+      - '9001:9001'
+    command: 'mosquitto -c /mosquitto-no-auth.conf'
+
+  zigbee2mqtt:
+    container_name: zigbee2mqtt
+    restart: unless-stopped
+    image: koenkk/zigbee2mqtt
+    volumes:
+      - ./volumes/zigbee2mqtt:/app/data
+      - /run/udev:/run/udev:ro
+    ports:
+      - 8080:8080
+    environment:
+      - TZ=US/Pacific
+    devices:
+      # - /dev/ttyUSB0:/dev/ttyUSB0
+      - /dev/serial/by-id/usb-ITead_Sonoff_Zigbee_3.0_USB_Dongle_Plus_84b1385fb745ed118d83d18f0a86e0b4-if00-port0:/dev/ttyUSB0
+
+  settings-backuper:
+    container_name: settings-backuper
+    build: https://github.com/NorthIsUp/gitwatch.git
+    env_file: .env
+    volumes:
+      - ./volumes/git:/volumes/.git
+      - ./docker-compose.yml:/volumes/docker-compose/docker-compose.yml
+      - ./volumes/zigbee2mqtt:/volumes/zigbee2mqtt
+      - ./volumes/homeassistant:/volumes/homeassistant
+      - ./volumes/homebridge:/volumes/homebridge
+    command: -s 5 -r https://github.com/NorthIsUp/gitwatch.git /volumes

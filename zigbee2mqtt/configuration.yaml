@@ -1,0 +1,29 @@
+permit_join: true
+mqtt:
+  base_topic: zigbee2mqtt
+  server: mqtt://mqtt
+serial:
+  port: /dev/ttyUSB0
+frontend:
+  port: 8080
+advanced:
+  network_key:
+    - 75
+    - 209
+    - 74
+    - 23
+    - 84
+    - 138
+    - 65
+    - 110
+    - 213
+    - 26
+    - 53
+    - 186
+    - 184
+    - 4
+    - 59
+    - 153
+devices:
+  '0xa4c138342cf0962d':
+    friendly_name: '0xa4c138342cf0962d'

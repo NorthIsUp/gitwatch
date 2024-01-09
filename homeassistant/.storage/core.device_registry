@@ -1,0 +1,165 @@
+{
+  "version": 1,
+  "minor_version": 4,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "area_id": null,
+        "config_entries": [
+          "82d6901b6182af27a5405e71ecb2454c"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "3df13dff59cb06da15038bf6a783419c",
+        "identifiers": [
+          [
+            "sun",
+            "82d6901b6182af27a5405e71ecb2454c"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "Sun",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "1a77c0fef9ec5e98757010a599b4a657"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "ab879556ebe9e46c2101dba3b688625d",
+        "identifiers": [
+          [
+            "cast",
+            "22589f76fde73378265df0e91480bc63"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Chromecast Ultra",
+        "name_by_user": null,
+        "name": "KQKDY7F9HG",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "f34001b4e8a2d5b0116d204041e5f41b"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "bluetooth",
+            "DC:A6:32:1E:9F:2D"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "usb:v1D6Bp0246d0542",
+        "id": "b6d6ec6c705cc038584fc7ea31c10910",
+        "identifiers": [],
+        "manufacturer": "Raspberry Pi Trading Ltd",
+        "model": "Unknown",
+        "name_by_user": null,
+        "name": "hci0 (DC:A6:32:1E:9F:2D)",
+        "serial_number": null,
+        "sw_version": "monock",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "ede88feaf6fbfb25ea51878ec97ccee4"
+        ],
+        "configuration_url": "https://www.met.no/en",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "b584f770e6a90af425c014b829bbf778",
+        "identifiers": [
+          [
+            "met",
+            "ede88feaf6fbfb25ea51878ec97ccee4"
+          ]
+        ],
+        "manufacturer": "Met.no",
+        "model": "Forecast",
+        "name_by_user": null,
+        "name": "Forecast",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "6410c5676f2542c70411260ff229b7c9"
+        ],
+        "configuration_url": "https://%5B2601%3A645%3A8000%3A66%3Aaabc%3Ae147%3A1389%3A71a0%5D:631/printers/Brother_HL-4570CDW_series_brother_driver",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "3634718dd26fe5f2aef95be9218ffcaf",
+        "identifiers": [
+          [
+            "ipp",
+            "09b290fc-1069-38d4-7c23-78c52dff352d"
+          ]
+        ],
+        "manufacturer": "Generic",
+        "model": "PCL Color Laser - CUPS+Gutenprint v5.3.3",
+        "name_by_user": null,
+        "name": "Generic PCL Color Laser - CUPS+Gutenprint v5.3.3",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "c9ce8a5c487677faf3e2836ace166d3b"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "zigbee",
+            "00:12:4b:00:2a:2f:46:1c"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "13e1ca2b0e7dcd069b02c5f862086907",
+        "identifiers": [
+          [
+            "zha",
+            "00:12:4b:00:2a:2f:46:1c"
+          ]
+        ],
+        "manufacturer": "Texas Instruments",
+        "model": "CC2652",
+        "name_by_user": null,
+        "name": "Zigbee Coordinator",
+        "serial_number": null,
+        "sw_version": "Z-Stack 20210708",
+        "via_device_id": null
+      }
+    ],
+    "deleted_devices": []
+  }
+}

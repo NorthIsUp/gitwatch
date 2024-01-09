@@ -1,0 +1,904 @@
+[37m[1/8/2024, 8:07:28 PM][0m [36m[HB Supervisor][0m Creating default config.json: /var/lib/homebridge/config.json
+[37m[1/8/2024, 8:07:28 PM][0m [36m[HB Supervisor][0m OS: Linux 6.1.0-rpi7-rpi-v8 arm64
+[37m[1/8/2024, 8:07:28 PM][0m [36m[HB Supervisor][0m Node.js v18.19.0 /opt/homebridge/bin/node
+[37m[1/8/2024, 8:07:28 PM][0m [36m[HB Supervisor][0m Homebridge Path: /var/lib/homebridge/node_modules/homebridge/bin/homebridge
+[37m[1/8/2024, 8:07:28 PM][0m [36m[HB Supervisor][0m UI Path: /opt/homebridge/lib/node_modules/homebridge-config-ui-x/dist/bin/standalone.js
+[0;37m[1/8/2024, 8:07:32 PM] [0m[0;36m[Homebridge UI][0m [0;33mHomebridge UI v4.55.1 is listening on :: port 8581[0m
+[37m[1/8/2024, 8:07:32 PM][0m [36m[HB Supervisor][0m Starting Homebridge with extra flags: -I -P /var/lib/homebridge/node_modules --strict-plugin-resolution
+[37m[1/8/2024, 8:07:32 PM][0m [36m[HB Supervisor][0m Started Homebridge v1.7.0 with PID: 157
+[37m[1/8/2024, 8:07:33 PM] [39mLoaded config.json with 0 accessories and 1 platforms.
+[37m[1/8/2024, 8:07:33 PM] [39m---
+[37m[1/8/2024, 8:07:33 PM] [39m[33mNo plugins found.[39m
+[37m[1/8/2024, 8:07:33 PM] [39mLoading 1 platforms...
+Setup Payload:
+X-HM://002431D97IIWV
+Enter this code with your HomeKit app on your iOS device to pair with Homebridge:
+[30m[47m                       [49m[39m
+[30m[47m    ┌────────────┐     [49m[39m
+[30m[47m    │ 371-29-307 │     [49m[39m
+[30m[47m    └────────────┘     [49m[39m
+[30m[47m                       [49m[39m
+[37m[1/8/2024, 8:07:34 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (Homebridge 1D39) is running on port 51105.
+[0;37m[1/8/2024, 8:10:41 PM] [0m[0;36m[Homebridge UI][0m [0;33mAdded new user: northisup[0m
+[0;37m[1/8/2024, 8:15:13 PM] [0m[0;36m[Homebridge UI][0m Running Command: /opt/homebridge/lib/node_modules/homebridge-config-ui-x/plugin-upgrade-install.sh homebridge-z2m 1.9.3 /var/lib/homebridge/node_modules
+[37m[1/8/2024, 8:24:04 PM][0m [36m[HB Supervisor][0m Stopping services...
+[37m[1/8/2024, 8:24:04 PM] [39mGot SIGTERM, shutting down Homebridge...
+[37m[1/8/2024, 8:24:09 PM][0m [36m[HB Supervisor][0m Homebridge Process Ended. Code: 143, Signal: null
+[37m[1/8/2024, 8:24:29 PM][0m [36m[HB Supervisor][0m OS: Linux 6.1.0-rpi7-rpi-v8 arm64
+[37m[1/8/2024, 8:24:29 PM][0m [36m[HB Supervisor][0m Node.js v18.19.0 /opt/homebridge/bin/node
+[37m[1/8/2024, 8:24:29 PM][0m [36m[HB Supervisor][0m Homebridge Path: /var/lib/homebridge/node_modules/homebridge/bin/homebridge
+[37m[1/8/2024, 8:24:29 PM][0m [36m[HB Supervisor][0m UI Path: /opt/homebridge/lib/node_modules/homebridge-config-ui-x/dist/bin/standalone.js
+[0;37m[1/8/2024, 8:24:38 PM] [0m[0;36m[Homebridge UI][0m [0;33mHomebridge UI v4.55.1 is listening on :: port 8581[0m
+[37m[1/8/2024, 8:24:39 PM][0m [36m[HB Supervisor][0m Starting Homebridge with extra flags: -I -P /var/lib/homebridge/node_modules --strict-plugin-resolution
+[37m[1/8/2024, 8:24:39 PM][0m [36m[HB Supervisor][0m Started Homebridge v1.7.0 with PID: 147
+[37m[1/8/2024, 8:24:42 PM] [39mLoaded config.json with 0 accessories and 1 platforms.
+[37m[1/8/2024, 8:24:42 PM] [39mLoaded 0 cached accessories from cachedAccessories.
+[37m[1/8/2024, 8:24:42 PM] [39m---
+[37m[1/8/2024, 8:24:43 PM] [39mLoaded plugin: homebridge-z2m@1.9.3
+[37m[1/8/2024, 8:24:43 PM] [39mRegistering platform 'homebridge-z2m.zigbee2mqtt'
+[37m[1/8/2024, 8:24:43 PM] [39m---
+[37m[1/8/2024, 8:24:43 PM] [39mLoading 1 platforms...
+Setup Payload:
+X-HM://002431D97IIWV
+Enter this code with your HomeKit app on your iOS device to pair with Homebridge:
+[30m[47m                       [49m[39m
+[30m[47m    ┌────────────┐     [49m[39m
+[30m[47m    │ 371-29-307 │     [49m[39m
+[30m[47m    └────────────┘     [49m[39m
+[30m[47m                       [49m[39m
+[37m[1/8/2024, 8:24:43 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (Homebridge 1D39) is running on port 51105.
+[37m[1/8/2024, 8:26:10 PM][0m [36m[HB Supervisor][0m Stopping services...
+[37m[1/8/2024, 8:26:10 PM] [39mGot SIGTERM, shutting down Homebridge...
+[37m[1/8/2024, 8:26:15 PM][0m [36m[HB Supervisor][0m Homebridge Process Ended. Code: 143, Signal: null
+[37m[1/8/2024, 8:26:27 PM][0m [36m[HB Supervisor][0m OS: Linux 6.1.0-rpi7-rpi-v8 arm64
+[37m[1/8/2024, 8:26:27 PM][0m [36m[HB Supervisor][0m Node.js v18.19.0 /opt/homebridge/bin/node
+[37m[1/8/2024, 8:26:27 PM][0m [36m[HB Supervisor][0m Homebridge Path: /var/lib/homebridge/node_modules/homebridge/bin/homebridge
+[37m[1/8/2024, 8:26:27 PM][0m [36m[HB Supervisor][0m UI Path: /opt/homebridge/lib/node_modules/homebridge-config-ui-x/dist/bin/standalone.js
+[37m[1/8/2024, 8:26:31 PM][0m [36m[HB Supervisor][0m Stopping services...
+[0;37m[1/8/2024, 8:26:32 PM] [0m[0;36m[Homebridge UI][0m [0;33mHomebridge UI v4.55.1 is listening on :: port 8581[0m
+[37m[1/8/2024, 8:26:32 PM][0m [36m[HB Supervisor][0m Starting Homebridge with extra flags: -I -P /var/lib/homebridge/node_modules --strict-plugin-resolution
+[37m[1/8/2024, 8:26:32 PM][0m [36m[HB Supervisor][0m Started Homebridge v1.7.0 with PID: 175
+[37m[1/8/2024, 8:26:33 PM] [39mLoaded config.json with 0 accessories and 1 platforms.
+[37m[1/8/2024, 8:26:34 PM] [39mLoaded 0 cached accessories from cachedAccessories.
+[37m[1/8/2024, 8:26:34 PM] [39m---
+[37m[1/8/2024, 8:26:34 PM] [39mLoaded plugin: homebridge-z2m@1.9.3
+[37m[1/8/2024, 8:26:34 PM] [39mRegistering platform 'homebridge-z2m.zigbee2mqtt'
+[37m[1/8/2024, 8:26:34 PM] [39m---
+[37m[1/8/2024, 8:26:34 PM] [39mLoading 1 platforms...
+Setup Payload:
+X-HM://002431D97IIWV
+Enter this code with your HomeKit app on your iOS device to pair with Homebridge:
+[30m[47m                       [49m[39m
+[30m[47m    ┌────────────┐     [49m[39m
+[30m[47m    │ 371-29-307 │     [49m[39m
+[30m[47m    └────────────┘     [49m[39m
+[30m[47m                       [49m[39m
+[37m[1/8/2024, 8:26:34 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (Homebridge 1D39) is running on port 51105.
+[37m[1/8/2024, 8:27:14 PM][0m [36m[HB Supervisor][0m OS: Linux 6.1.0-rpi7-rpi-v8 arm64
+[37m[1/8/2024, 8:27:14 PM][0m [36m[HB Supervisor][0m Node.js v18.19.0 /opt/homebridge/bin/node
+[37m[1/8/2024, 8:27:14 PM][0m [36m[HB Supervisor][0m Homebridge Path: /var/lib/homebridge/node_modules/homebridge/bin/homebridge
+[37m[1/8/2024, 8:27:14 PM][0m [36m[HB Supervisor][0m UI Path: /opt/homebridge/lib/node_modules/homebridge-config-ui-x/dist/bin/standalone.js
+[0;37m[1/8/2024, 8:27:21 PM] [0m[0;36m[Homebridge UI][0m [0;33mHomebridge UI v4.55.1 is listening on :: port 8581[0m
+[37m[1/8/2024, 8:27:22 PM][0m [36m[HB Supervisor][0m Starting Homebridge with extra flags: -I -P /var/lib/homebridge/node_modules --strict-plugin-resolution
+[37m[1/8/2024, 8:27:22 PM][0m [36m[HB Supervisor][0m Started Homebridge v1.7.0 with PID: 147
+[37m[1/8/2024, 8:27:24 PM] [39mLoaded config.json with 0 accessories and 1 platforms.
+[37m[1/8/2024, 8:27:25 PM] [39mLoaded 0 cached accessories from cachedAccessories.
+[37m[1/8/2024, 8:27:25 PM] [39m---
+[37m[1/8/2024, 8:27:25 PM] [39mLoaded plugin: homebridge-z2m@1.9.3
+[37m[1/8/2024, 8:27:25 PM] [39mRegistering platform 'homebridge-z2m.zigbee2mqtt'
+[37m[1/8/2024, 8:27:25 PM] [39m---
+[37m[1/8/2024, 8:27:25 PM] [39mLoading 1 platforms...
+Setup Payload:
+X-HM://002431D97IIWV
+Enter this code with your HomeKit app on your iOS device to pair with Homebridge:
+[30m[47m                       [49m[39m
+[30m[47m    ┌────────────┐     [49m[39m
+[30m[47m    │ 371-29-307 │     [49m[39m
+[30m[47m    └────────────┘     [49m[39m
+[30m[47m                       [49m[39m
+[37m[1/8/2024, 8:27:25 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (Homebridge 1D39) is running on port 51105.
+[0;37m[1/8/2024, 8:39:02 PM] [0m[0;36m[Homebridge UI][0m Running Command: /opt/homebridge/lib/node_modules/homebridge-config-ui-x/plugin-upgrade-install.sh @0x5e/homebridge-tuya-platform 1.7.0-beta.52 /var/lib/homebridge/node_modules
+[0;37m[1/8/2024, 8:43:42 PM] [0m[0;36m[Homebridge UI][0m Running Command: npm install --save @tuxbox/homebridge-homeassistant@1.0.6-beta.12
+[0;37m[1/8/2024, 8:45:21 PM] [0m[0;36m[Homebridge UI][0m Changes to config.json saved.
+[0;37m[1/8/2024, 8:45:23 PM] [0m[0;36m[Homebridge UI][0m Homebridge restart request received
+[0;37m[1/8/2024, 8:45:24 PM] [0m[0;36m[Homebridge UI][0m UI / Bridge settings have not changed; only restarting Homebridge process
+[0;37m[1/8/2024, 8:45:24 PM] [0m[0;36m[Homebridge UI][0m Sending SIGTERM to Homebridge
+[37m[1/8/2024, 8:45:24 PM] [39mGot SIGTERM, shutting down Homebridge...
+[37m[1/8/2024, 8:45:29 PM][0m [36m[HB Supervisor][0m Homebridge Process Ended. Code: 143, Signal: null
+[37m[1/8/2024, 8:45:34 PM][0m [36m[HB Supervisor][0m Restarting Homebridge...
+[37m[1/8/2024, 8:45:34 PM][0m [36m[HB Supervisor][0m Starting Homebridge with extra flags: -I -P /var/lib/homebridge/node_modules --strict-plugin-resolution
+[37m[1/8/2024, 8:45:34 PM][0m [36m[HB Supervisor][0m Started Homebridge v1.7.0 with PID: 1224
+[37m[1/8/2024, 8:45:36 PM] [39mLoaded config.json with 0 accessories and 2 platforms.
+[37m[1/8/2024, 8:45:36 PM] [39mLoaded 0 cached accessories from cachedAccessories.
+[37m[1/8/2024, 8:45:36 PM] [39m---
+[37m[1/8/2024, 8:45:37 PM] [39mLoaded plugin: homebridge-z2m@1.9.3
+[37m[1/8/2024, 8:45:37 PM] [39mRegistering platform 'homebridge-z2m.zigbee2mqtt'
+[37m[1/8/2024, 8:45:37 PM] [39m---
+[37m[1/8/2024, 8:45:39 PM] [39mLoaded plugin: @0x5e/homebridge-tuya-platform@1.7.0-beta.52
+[37m[1/8/2024, 8:45:39 PM] [39mRegistering platform '@0x5e/homebridge-tuya-platform.TuyaPlatform'
+[37m[1/8/2024, 8:45:39 PM] [39m---
+[37m[1/8/2024, 8:45:39 PM] [39mLoaded plugin: @tuxbox/homebridge-homeassistant@1.0.6-beta.12
+[37m[1/8/2024, 8:45:39 PM] [39mRegistering platform '@tuxbox/homebridge-homeassistant.HombridgePluginHomeassistant'
+[37m[1/8/2024, 8:45:39 PM] [39m---
+[37m[1/8/2024, 8:45:39 PM] [39mLoading 2 platforms...
+[37m[1/8/2024, 8:45:39 PM] [39m[36m[HombridgePluginHomeassistant][39m Initializing HombridgePluginHomeassistant platform...
+[37m[1/8/2024, 8:45:39 PM] [39m[36m[HombridgePluginHomeassistant][39m Configuration: {"protocol":"tcp","host":"localhost","port":1883,"homeassistantBaseTopic":"homeassistant","username":"northisup","password":"upr@aha2pfx9KYP2yzh","platform":"HombridgePluginHomeassistant"}
+[37m[1/8/2024, 8:45:39 PM] [39m[36m[HombridgePluginHomeassistant][39m Connecting to localhost
+Setup Payload:
+X-HM://002431D97IIWV
+Enter this code with your HomeKit app on your iOS device to pair with Homebridge:
+[30m[47m                       [49m[39m
+[30m[47m    ┌────────────┐     [49m[39m
+[30m[47m    │ 371-29-307 │     [49m[39m
+[30m[47m    └────────────┘     [49m[39m
+[30m[47m                       [49m[39m
+[37m[1/8/2024, 8:45:40 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (Homebridge 1D39) is running on port 51105.
+[37m[1/8/2024, 8:45:40 PM] [39m[36m[HombridgePluginHomeassistant][39m connected to tcp://northisup@localhost:1883
+[37m[1/8/2024, 8:45:40 PM] [39m[36m[HombridgePluginHomeassistant][39m registering MQTT message handler
+[37m[1/8/2024, 8:45:40 PM] [39m[36m[HombridgePluginHomeassistant][39m subscribing to topic "homeassistant/#"
+[37m[1/8/2024, 8:48:13 PM][0m [36m[HB Supervisor][0m Stopping services...
+[37m[1/8/2024, 8:48:13 PM] [39mGot SIGTERM, shutting down Homebridge...
+[37m[1/8/2024, 8:48:18 PM][0m [36m[HB Supervisor][0m Homebridge Process Ended. Code: 143, Signal: null
+[37m[1/8/2024, 8:48:34 PM][0m [36m[HB Supervisor][0m OS: Linux 6.1.0-rpi7-rpi-v8 arm64
+[37m[1/8/2024, 8:48:34 PM][0m [36m[HB Supervisor][0m Node.js v18.19.0 /opt/homebridge/bin/node
+[37m[1/8/2024, 8:48:34 PM][0m [36m[HB Supervisor][0m Homebridge Path: /var/lib/homebridge/node_modules/homebridge/bin/homebridge
+[37m[1/8/2024, 8:48:34 PM][0m [36m[HB Supervisor][0m UI Path: /opt/homebridge/lib/node_modules/homebridge-config-ui-x/dist/bin/standalone.js
+[0;37m[1/8/2024, 8:48:42 PM] [0m[0;36m[Homebridge UI][0m [0;33mHomebridge UI v4.55.1 is listening on :: port 8581[0m
+[37m[1/8/2024, 8:48:43 PM][0m [36m[HB Supervisor][0m Starting Homebridge with extra flags: -I -P /var/lib/homebridge/node_modules --strict-plugin-resolution
+[37m[1/8/2024, 8:48:43 PM][0m [36m[HB Supervisor][0m Started Homebridge v1.7.0 with PID: 147
+[37m[1/8/2024, 8:48:45 PM] [39mLoaded config.json with 0 accessories and 2 platforms.
+[37m[1/8/2024, 8:48:46 PM] [39mLoaded 0 cached accessories from cachedAccessories.
+[37m[1/8/2024, 8:48:46 PM] [39m---
+[37m[1/8/2024, 8:48:46 PM] [39mLoaded plugin: homebridge-z2m@1.9.3
+[37m[1/8/2024, 8:48:46 PM] [39mRegistering platform 'homebridge-z2m.zigbee2mqtt'
+[37m[1/8/2024, 8:48:46 PM] [39m---
+[37m[1/8/2024, 8:48:49 PM] [39mLoaded plugin: @0x5e/homebridge-tuya-platform@1.7.0-beta.52
+[37m[1/8/2024, 8:48:49 PM] [39mRegistering platform '@0x5e/homebridge-tuya-platform.TuyaPlatform'
+[37m[1/8/2024, 8:48:49 PM] [39m---
+[37m[1/8/2024, 8:48:49 PM] [39mLoaded plugin: @tuxbox/homebridge-homeassistant@1.0.6-beta.12
+[37m[1/8/2024, 8:48:49 PM] [39mRegistering platform '@tuxbox/homebridge-homeassistant.HombridgePluginHomeassistant'
+[37m[1/8/2024, 8:48:49 PM] [39m---
+[37m[1/8/2024, 8:48:49 PM] [39mLoading 2 platforms...
+[37m[1/8/2024, 8:48:49 PM] [39m[36m[HombridgePluginHomeassistant][39m Initializing HombridgePluginHomeassistant platform...
+[37m[1/8/2024, 8:48:49 PM] [39m[36m[HombridgePluginHomeassistant][39m Configuration: {"protocol":"tcp","host":"localhost","port":1883,"homeassistantBaseTopic":"homeassistant","username":"northisup","password":"upr@aha2pfx9KYP2yzh","platform":"HombridgePluginHomeassistant"}
+[37m[1/8/2024, 8:48:49 PM] [39m[36m[HombridgePluginHomeassistant][39m Connecting to localhost
+Setup Payload:
+X-HM://002431D97IIWV
+Enter this code with your HomeKit app on your iOS device to pair with Homebridge:
+[30m[47m                       [49m[39m
+[30m[47m    ┌────────────┐     [49m[39m
+[30m[47m    │ 371-29-307 │     [49m[39m
+[30m[47m    └────────────┘     [49m[39m
+[30m[47m                       [49m[39m
+[37m[1/8/2024, 8:48:50 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (Homebridge 1D39) is running on port 51105.
+[37m[1/8/2024, 8:48:50 PM] [39m[36m[HombridgePluginHomeassistant][39m connected to tcp://northisup@localhost:1883
+[37m[1/8/2024, 8:48:50 PM] [39m[36m[HombridgePluginHomeassistant][39m registering MQTT message handler
+[37m[1/8/2024, 8:48:50 PM] [39m[36m[HombridgePluginHomeassistant][39m subscribing to topic "homeassistant/#"
+[37m[1/8/2024, 8:50:24 PM][0m [36m[HB Supervisor][0m Stopping services...
+[37m[1/8/2024, 8:50:24 PM] [39mGot SIGTERM, shutting down Homebridge...
+[37m[1/8/2024, 8:50:29 PM][0m [36m[HB Supervisor][0m Homebridge Process Ended. Code: 143, Signal: null
+[37m[1/8/2024, 8:50:42 PM][0m [36m[HB Supervisor][0m OS: Linux 6.1.0-rpi7-rpi-v8 arm64
+[37m[1/8/2024, 8:50:42 PM][0m [36m[HB Supervisor][0m Node.js v18.19.0 /opt/homebridge/bin/node
+[37m[1/8/2024, 8:50:42 PM][0m [36m[HB Supervisor][0m Homebridge Path: /var/lib/homebridge/node_modules/homebridge/bin/homebridge
+[37m[1/8/2024, 8:50:42 PM][0m [36m[HB Supervisor][0m UI Path: /opt/homebridge/lib/node_modules/homebridge-config-ui-x/dist/bin/standalone.js
+[0;37m[1/8/2024, 8:50:48 PM] [0m[0;36m[Homebridge UI][0m [0;33mHomebridge UI v4.55.1 is listening on :: port 8581[0m
+[37m[1/8/2024, 8:50:49 PM][0m [36m[HB Supervisor][0m Starting Homebridge with extra flags: -I -P /var/lib/homebridge/node_modules --strict-plugin-resolution
+[37m[1/8/2024, 8:50:49 PM][0m [36m[HB Supervisor][0m Started Homebridge v1.7.0 with PID: 147
+[37m[1/8/2024, 8:50:51 PM] [39mLoaded config.json with 0 accessories and 2 platforms.
+[37m[1/8/2024, 8:50:51 PM] [39mLoaded 0 cached accessories from cachedAccessories.
+[37m[1/8/2024, 8:50:51 PM] [39m---
+[37m[1/8/2024, 8:50:51 PM] [39mLoaded plugin: homebridge-z2m@1.9.3
+[37m[1/8/2024, 8:50:51 PM] [39mRegistering platform 'homebridge-z2m.zigbee2mqtt'
+[37m[1/8/2024, 8:50:51 PM] [39m---
+[37m[1/8/2024, 8:50:52 PM] [39mLoaded plugin: @0x5e/homebridge-tuya-platform@1.7.0-beta.52
+[37m[1/8/2024, 8:50:52 PM] [39mRegistering platform '@0x5e/homebridge-tuya-platform.TuyaPlatform'
+[37m[1/8/2024, 8:50:52 PM] [39m---
+[37m[1/8/2024, 8:50:53 PM] [39mLoaded plugin: @tuxbox/homebridge-homeassistant@1.0.6-beta.12
+[37m[1/8/2024, 8:50:53 PM] [39mRegistering platform '@tuxbox/homebridge-homeassistant.HombridgePluginHomeassistant'
+[37m[1/8/2024, 8:50:53 PM] [39m---
+[37m[1/8/2024, 8:50:53 PM] [39mLoading 2 platforms...
+[37m[1/8/2024, 8:50:53 PM] [39m[36m[HombridgePluginHomeassistant][39m Initializing HombridgePluginHomeassistant platform...
+[37m[1/8/2024, 8:50:53 PM] [39m[36m[HombridgePluginHomeassistant][39m Configuration: {"protocol":"tcp","host":"localhost","port":1883,"homeassistantBaseTopic":"homeassistant","username":"northisup","password":"upr@aha2pfx9KYP2yzh","platform":"HombridgePluginHomeassistant"}
+[37m[1/8/2024, 8:50:53 PM] [39m[36m[HombridgePluginHomeassistant][39m Connecting to localhost
+Setup Payload:
+X-HM://002431D97IIWV
+Enter this code with your HomeKit app on your iOS device to pair with Homebridge:
+[30m[47m                       [49m[39m
+[30m[47m    ┌────────────┐     [49m[39m
+[30m[47m    │ 371-29-307 │     [49m[39m
+[30m[47m    └────────────┘     [49m[39m
+[30m[47m                       [49m[39m
+[37m[1/8/2024, 8:50:53 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (Homebridge 1D39) is running on port 51105.
+[37m[1/8/2024, 8:50:53 PM] [39m[36m[HombridgePluginHomeassistant][39m connected to tcp://northisup@localhost:1883
+[37m[1/8/2024, 8:50:53 PM] [39m[36m[HombridgePluginHomeassistant][39m registering MQTT message handler
+[37m[1/8/2024, 8:50:53 PM] [39m[36m[HombridgePluginHomeassistant][39m subscribing to topic "homeassistant/#"
+[0;37m[1/8/2024, 8:57:20 PM] [0m[0;36m[Homebridge UI][0m Changes to config.json saved.
+[0;37m[1/8/2024, 8:57:31 PM] [0m[0;36m[Homebridge UI][0m Homebridge restart request received
+[0;37m[1/8/2024, 8:57:31 PM] [0m[0;36m[Homebridge UI][0m UI / Bridge settings have not changed; only restarting Homebridge process
+[0;37m[1/8/2024, 8:57:31 PM] [0m[0;36m[Homebridge UI][0m Sending SIGTERM to Homebridge
+[37m[1/8/2024, 8:57:31 PM] [39mGot SIGTERM, shutting down Homebridge...
+[37m[1/8/2024, 8:57:36 PM][0m [36m[HB Supervisor][0m Homebridge Process Ended. Code: 143, Signal: null
+[37m[1/8/2024, 8:57:41 PM][0m [36m[HB Supervisor][0m Restarting Homebridge...
+[37m[1/8/2024, 8:57:41 PM][0m [36m[HB Supervisor][0m Starting Homebridge with extra flags: -I -P /var/lib/homebridge/node_modules --strict-plugin-resolution
+[37m[1/8/2024, 8:57:41 PM][0m [36m[HB Supervisor][0m Started Homebridge v1.7.0 with PID: 891
+[37m[1/8/2024, 8:57:42 PM] [39mLoaded config.json with 0 accessories and 3 platforms.
+[37m[1/8/2024, 8:57:43 PM] [39mLoaded 0 cached accessories from cachedAccessories.
+[37m[1/8/2024, 8:57:43 PM] [39m---
+[37m[1/8/2024, 8:57:43 PM] [39mLoaded plugin: homebridge-z2m@1.9.3
+[37m[1/8/2024, 8:57:43 PM] [39mRegistering platform 'homebridge-z2m.zigbee2mqtt'
+[37m[1/8/2024, 8:57:43 PM] [39m---
+[37m[1/8/2024, 8:57:44 PM] [39mLoaded plugin: @0x5e/homebridge-tuya-platform@1.7.0-beta.52
+[37m[1/8/2024, 8:57:44 PM] [39mRegistering platform '@0x5e/homebridge-tuya-platform.TuyaPlatform'
+[37m[1/8/2024, 8:57:44 PM] [39m---
+[37m[1/8/2024, 8:57:45 PM] [39mLoaded plugin: @tuxbox/homebridge-homeassistant@1.0.6-beta.12
+[37m[1/8/2024, 8:57:45 PM] [39mRegistering platform '@tuxbox/homebridge-homeassistant.HombridgePluginHomeassistant'
+[37m[1/8/2024, 8:57:45 PM] [39m---
+[37m[1/8/2024, 8:57:45 PM] [39mLoading 3 platforms...
+[37m[1/8/2024, 8:57:45 PM] [39m[36m[HombridgePluginHomeassistant][39m Initializing HombridgePluginHomeassistant platform...
+[37m[1/8/2024, 8:57:45 PM] [39m[36m[zigbee2mqtt][39m Initializing zigbee2mqtt platform...
+[37m[1/8/2024, 8:57:45 PM] [39m[36m[zigbee2mqtt][39m Connecting to MQTT server at mqtt://localhost:1883
+[37m[1/8/2024, 8:57:45 PM] [39m[36m[HombridgePluginHomeassistant][39m Configuration: {"protocol":"tcp","host":"localhost","port":1883,"homeassistantBaseTopic":"homeassistant","username":"northisup","password":"upr@aha2pfx9KYP2yzh","platform":"HombridgePluginHomeassistant"}
+[37m[1/8/2024, 8:57:45 PM] [39m[36m[HombridgePluginHomeassistant][39m Connecting to localhost
+Setup Payload:
+X-HM://002431D97IIWV
+Enter this code with your HomeKit app on your iOS device to pair with Homebridge:
+[30m[47m                       [49m[39m
+[30m[47m    ┌────────────┐     [49m[39m
+[30m[47m    │ 371-29-307 │     [49m[39m
+[30m[47m    └────────────┘     [49m[39m
+[30m[47m                       [49m[39m
+[37m[1/8/2024, 8:57:45 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (Homebridge 1D39) is running on port 51105.
+[37m[1/8/2024, 8:57:45 PM] [39m[36m[zigbee2mqtt][39m Connected to MQTT server
+[37m[1/8/2024, 8:57:45 PM] [39m[36m[HombridgePluginHomeassistant][39m connected to tcp://northisup@localhost:1883
+[37m[1/8/2024, 8:57:45 PM] [39m[36m[HombridgePluginHomeassistant][39m registering MQTT message handler
+[37m[1/8/2024, 8:57:45 PM] [39m[36m[HombridgePluginHomeassistant][39m subscribing to topic "homeassistant/#"
+[37m[1/8/2024, 8:57:45 PM] [39m[36m[zigbee2mqtt][39m [31mZigbee2MQTT is OFFLINE![39m
+[37m[1/8/2024, 8:57:45 PM] [39m[36m[zigbee2mqtt][39m Using Zigbee2MQTT v1.35.1 (identified via zigbee2mqtt/bridge/info)
+[37m[1/8/2024, 8:59:24 PM] [39m[36m[zigbee2mqtt][39m [31mZigbee2MQTT is OFFLINE![39m
+[37m[1/8/2024, 9:11:53 PM] [39m[36m[zigbee2mqtt][39m [31mZigbee2MQTT is OFFLINE![39m
+[37m[1/8/2024, 9:15:25 PM] [39m[36m[zigbee2mqtt][39m [31mZigbee2MQTT is OFFLINE![39m
+[37m[1/8/2024, 9:18:58 PM] [39m[36m[zigbee2mqtt][39m [31mZigbee2MQTT is OFFLINE![39m
+[37m[1/8/2024, 9:22:30 PM] [39m[36m[zigbee2mqtt][39m [31mZigbee2MQTT is OFFLINE![39m
+[37m[1/8/2024, 9:25:08 PM] [39m[36m[zigbee2mqtt][39m [31mZigbee2MQTT is OFFLINE![39m
+[37m[1/8/2024, 9:25:59 PM] [39m[36m[zigbee2mqtt][39m New accessory: 0xa4c138342cf0962d
+[37m[1/8/2024, 9:25:59 PM] [39m[36m[zigbee2mqtt][39m Mapping of property 'action' of device '0xa4c138342cf0962d':
+Button 1 (1):
+	- SINGLE: 1_single
+	- DOUBLE: 1_double
+	- LONG  : 1_hold
+Button 2 (2):
+	- SINGLE: 2_single
+	- DOUBLE: 2_double
+	- LONG  : 2_hold
+[0;37m[1/8/2024, 9:27:14 PM] [0m[0;36m[Homebridge UI][0m Changes to config.json saved.
+[0;37m[1/8/2024, 9:27:16 PM] [0m[0;36m[Homebridge UI][0m Homebridge restart request received
+[0;37m[1/8/2024, 9:27:16 PM] [0m[0;36m[Homebridge UI][0m UI / Bridge settings have not changed; only restarting Homebridge process
+[0;37m[1/8/2024, 9:27:16 PM] [0m[0;36m[Homebridge UI][0m Sending SIGTERM to Homebridge
+[37m[1/8/2024, 9:27:16 PM] [39mGot SIGTERM, shutting down Homebridge...
+[37m[1/8/2024, 9:27:21 PM][0m [36m[HB Supervisor][0m Homebridge Process Ended. Code: 143, Signal: null
+[37m[1/8/2024, 9:27:26 PM][0m [36m[HB Supervisor][0m Restarting Homebridge...
+[37m[1/8/2024, 9:27:26 PM][0m [36m[HB Supervisor][0m Starting Homebridge with extra flags: -I -P /var/lib/homebridge/node_modules --strict-plugin-resolution
+[37m[1/8/2024, 9:27:26 PM][0m [36m[HB Supervisor][0m Started Homebridge v1.7.0 with PID: 2111
+[37m[1/8/2024, 9:27:27 PM] [39mLoaded config.json with 0 accessories and 3 platforms.
+[37m[1/8/2024, 9:27:27 PM] [39mLoaded 1 cached accessories from cachedAccessories.
+[37m[1/8/2024, 9:27:27 PM] [39m---
+[37m[1/8/2024, 9:27:28 PM] [39mLoaded plugin: homebridge-z2m@1.9.3
+[37m[1/8/2024, 9:27:28 PM] [39mRegistering platform 'homebridge-z2m.zigbee2mqtt'
+[37m[1/8/2024, 9:27:28 PM] [39m---
+[37m[1/8/2024, 9:27:29 PM] [39mLoaded plugin: @0x5e/homebridge-tuya-platform@1.7.0-beta.52
+[37m[1/8/2024, 9:27:29 PM] [39mRegistering platform '@0x5e/homebridge-tuya-platform.TuyaPlatform'
+[37m[1/8/2024, 9:27:29 PM] [39m---
+[37m[1/8/2024, 9:27:29 PM] [39mLoaded plugin: @tuxbox/homebridge-homeassistant@1.0.6-beta.12
+[37m[1/8/2024, 9:27:29 PM] [39mRegistering platform '@tuxbox/homebridge-homeassistant.HombridgePluginHomeassistant'
+[37m[1/8/2024, 9:27:29 PM] [39m---
+[37m[1/8/2024, 9:27:29 PM] [39mLoading 3 platforms...
+[37m[1/8/2024, 9:27:29 PM] [39m[36m[HombridgePluginHomeassistant][39m Initializing HombridgePluginHomeassistant platform...
+[37m[1/8/2024, 9:27:29 PM] [39m[36m[zigbee2mqtt][39m Initializing zigbee2mqtt platform...
+[37m[1/8/2024, 9:27:29 PM] [39m[36m[zigbee2mqtt][39m Initializing child bridge 0E:30:BF:4E:E2:C6
+[37m[1/8/2024, 9:27:29 PM] [39mFailed to find plugin to handle accessory 0xa4c138342cf0962d
+[37m[1/8/2024, 9:27:29 PM] [39mRemoving orphaned accessory 0xa4c138342cf0962d
+[37m[1/8/2024, 9:27:29 PM] [39m[36m[HombridgePluginHomeassistant][39m Configuration: {"protocol":"tcp","host":"localhost","port":1883,"homeassistantBaseTopic":"homeassistant","username":"northisup","password":"upr@aha2pfx9KYP2yzh","platform":"HombridgePluginHomeassistant"}
+[37m[1/8/2024, 9:27:29 PM] [39m[36m[HombridgePluginHomeassistant][39m Connecting to localhost
+Setup Payload:
+X-HM://002431D97IIWV
+Enter this code with your HomeKit app on your iOS device to pair with Homebridge:
+[30m[47m                       [49m[39m
+[30m[47m    ┌────────────┐     [49m[39m
+[30m[47m    │ 371-29-307 │     [49m[39m
+[30m[47m    └────────────┘     [49m[39m
+[30m[47m                       [49m[39m
+[37m[1/8/2024, 9:27:30 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (Homebridge 1D39) is running on port 51105.
+[37m[1/8/2024, 9:27:30 PM] [39m[36m[HombridgePluginHomeassistant][39m connected to tcp://northisup@localhost:1883
+[37m[1/8/2024, 9:27:30 PM] [39m[36m[HombridgePluginHomeassistant][39m registering MQTT message handler
+[37m[1/8/2024, 9:27:30 PM] [39m[36m[HombridgePluginHomeassistant][39m subscribing to topic "homeassistant/#"
+[37m[1/8/2024, 9:27:31 PM] [39m[36m[homebridge-z2m][39m Launched child bridge with PID 2153
+[37m[1/8/2024, 9:27:31 PM] [39mRegistering platform 'homebridge-z2m.zigbee2mqtt'
+[37m[1/8/2024, 9:27:31 PM] [39m[36m[homebridge-z2m][39m Loaded homebridge-z2m v1.9.3 child bridge successfully
+[37m[1/8/2024, 9:27:31 PM] [39m[36m[homebridge-z2m][39m Connecting to MQTT server at mqtt://localhost:1883
+[37m[1/8/2024, 9:27:32 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (homebridge-z2m) is running on port 33404.
+[37m[1/8/2024, 9:27:32 PM] [39m[36m[homebridge-z2m][39m Connected to MQTT server
+[37m[1/8/2024, 9:27:32 PM] [39m[36m[homebridge-z2m][39m Using Zigbee2MQTT v1.35.1 (identified via zigbee2mqtt/bridge/info)
+[37m[1/8/2024, 9:27:32 PM] [39m[36m[homebridge-z2m][39m New accessory: 0xa4c138342cf0962d
+[37m[1/8/2024, 9:27:32 PM] [39m[36m[homebridge-z2m][39m Mapping of property 'action' of device '0xa4c138342cf0962d':
+Button 1 (1):
+	- SINGLE: 1_single
+	- DOUBLE: 1_double
+	- LONG  : 1_hold
+Button 2 (2):
+	- SINGLE: 2_single
+	- DOUBLE: 2_double
+	- LONG  : 2_hold
+[0;37m[1/8/2024, 9:28:33 PM] [0m[0;36m[Homebridge UI][0m Changes to config.json saved.
+[0;37m[1/8/2024, 9:28:45 PM] [0m[0;36m[Homebridge UI][0m Homebridge restart request received
+[0;37m[1/8/2024, 9:28:45 PM] [0m[0;36m[Homebridge UI][0m UI / Bridge settings have not changed; only restarting Homebridge process
+[0;37m[1/8/2024, 9:28:45 PM] [0m[0;36m[Homebridge UI][0m Sending SIGTERM to Homebridge
+[37m[1/8/2024, 9:28:45 PM] [39mGot SIGTERM, shutting down Homebridge...
+[37m[1/8/2024, 9:28:45 PM] [39mGot SIGTERM, shutting down child bridge process...
+[37m[1/8/2024, 9:28:50 PM] [39m[36m[homebridge-z2m][39m [31mZigbee2MQTT is OFFLINE![39m
+[37m[1/8/2024, 9:28:50 PM][0m [36m[HB Supervisor][0m Homebridge Process Ended. Code: 143, Signal: null
+[37m[1/8/2024, 9:28:55 PM][0m [36m[HB Supervisor][0m Restarting Homebridge...
+[37m[1/8/2024, 9:28:55 PM][0m [36m[HB Supervisor][0m Starting Homebridge with extra flags: -I -P /var/lib/homebridge/node_modules --strict-plugin-resolution
+[37m[1/8/2024, 9:28:55 PM][0m [36m[HB Supervisor][0m Started Homebridge v1.7.0 with PID: 2377
+[37m[1/8/2024, 9:28:57 PM] [39mLoaded config.json with 0 accessories and 3 platforms.
+[37m[1/8/2024, 9:28:57 PM] [39mLoaded 0 cached accessories from cachedAccessories.
+[37m[1/8/2024, 9:28:57 PM] [39m---
+[37m[1/8/2024, 9:28:57 PM] [39mLoaded plugin: homebridge-z2m@1.9.3
+[37m[1/8/2024, 9:28:57 PM] [39mRegistering platform 'homebridge-z2m.zigbee2mqtt'
+[37m[1/8/2024, 9:28:57 PM] [39m---
+[37m[1/8/2024, 9:28:59 PM] [39mLoaded plugin: @0x5e/homebridge-tuya-platform@1.7.0-beta.52
+[37m[1/8/2024, 9:28:59 PM] [39mRegistering platform '@0x5e/homebridge-tuya-platform.TuyaPlatform'
+[37m[1/8/2024, 9:28:59 PM] [39m---
+[37m[1/8/2024, 9:28:59 PM] [39mLoaded plugin: @tuxbox/homebridge-homeassistant@1.0.6-beta.12
+[37m[1/8/2024, 9:28:59 PM] [39mRegistering platform '@tuxbox/homebridge-homeassistant.HombridgePluginHomeassistant'
+[37m[1/8/2024, 9:28:59 PM] [39m---
+[37m[1/8/2024, 9:28:59 PM] [39mLoading 3 platforms...
+[37m[1/8/2024, 9:28:59 PM] [39m[36m[HombridgePluginHomeassistant][39m Initializing HombridgePluginHomeassistant platform...
+[37m[1/8/2024, 9:28:59 PM] [39m[36m[zigbee2mqtt][39m Initializing zigbee2mqtt platform...
+[37m[1/8/2024, 9:28:59 PM] [39m[36m[zigbee2mqtt][39m Initializing child bridge 0E:30:BF:4E:E2:C6
+[37m[1/8/2024, 9:28:59 PM] [39m[36m[HombridgePluginHomeassistant][39m Configuration: {"protocol":"tcp","host":"localhost","port":1883,"homeassistantBaseTopic":"homeassistant","username":"northisup","password":"upr@aha2pfx9KYP2yzh","platform":"HombridgePluginHomeassistant"}
+[37m[1/8/2024, 9:28:59 PM] [39m[36m[HombridgePluginHomeassistant][39m Connecting to localhost
+Setup Payload:
+X-HM://002431D97IIWV
+Enter this code with your HomeKit app on your iOS device to pair with Homebridge:
+[30m[47m                       [49m[39m
+[30m[47m    ┌────────────┐     [49m[39m
+[30m[47m    │ 371-29-307 │     [49m[39m
+[30m[47m    └────────────┘     [49m[39m
+[30m[47m                       [49m[39m
+[37m[1/8/2024, 9:28:59 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (Homebridge 1D39) is running on port 51105.
+[37m[1/8/2024, 9:28:59 PM] [39m[36m[HombridgePluginHomeassistant][39m connected to tcp://northisup@localhost:1883
+[37m[1/8/2024, 9:28:59 PM] [39m[36m[HombridgePluginHomeassistant][39m registering MQTT message handler
+[37m[1/8/2024, 9:28:59 PM] [39m[36m[HombridgePluginHomeassistant][39m subscribing to topic "homeassistant/#"
+[37m[1/8/2024, 9:29:00 PM] [39m[36m[homebridge-z2m][39m Launched child bridge with PID 2421
+[37m[1/8/2024, 9:29:01 PM] [39mRegistering platform 'homebridge-z2m.zigbee2mqtt'
+[37m[1/8/2024, 9:29:01 PM] [39m[36m[homebridge-z2m][39m Loaded homebridge-z2m v1.9.3 child bridge successfully
+[37m[1/8/2024, 9:29:01 PM] [39mLoaded 1 cached accessories from cachedAccessories.0E30BF4EE2C6.
+[37m[1/8/2024, 9:29:01 PM] [39m[36m[homebridge-z2m][39m Connecting to MQTT server at mqtt://localhost:1883
+[37m[1/8/2024, 9:29:01 PM] [39m[36m[homebridge-z2m][39m Restoring accessory: 0xa4c138342cf0962d (0xa4c138342cf0962d)
+[37m[1/8/2024, 9:29:01 PM] [39m[36m[homebridge-z2m][39m Mapping of property 'action' of device '0xa4c138342cf0962d':
+Button 1 (1):
+	- SINGLE: 1_single
+	- DOUBLE: 1_double
+	- LONG  : 1_hold
+Button 2 (2):
+	- SINGLE: 2_single
+	- DOUBLE: 2_double
+	- LONG  : 2_hold
+[37m[1/8/2024, 9:29:01 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (homebridge-z2m) is running on port 33404.
+[37m[1/8/2024, 9:29:01 PM] [39m[36m[homebridge-z2m][39m Connected to MQTT server
+[37m[1/8/2024, 9:29:01 PM] [39m[36m[homebridge-z2m][39m [31mZigbee2MQTT is OFFLINE![39m
+[37m[1/8/2024, 9:29:01 PM] [39m[36m[homebridge-z2m][39m Using Zigbee2MQTT v1.35.1 (identified via zigbee2mqtt/bridge/info)
+[37m[1/8/2024, 9:32:23 PM] [39m[36m[homebridge-z2m][39m [31mZigbee2MQTT is OFFLINE![39m
+[37m[1/8/2024, 9:35:56 PM] [39m[36m[homebridge-z2m][39m [31mZigbee2MQTT is OFFLINE![39m
+[0;37m[1/8/2024, 9:38:50 PM] [0m[0;36m[Homebridge UI][0m Changes to config.json saved.
+[0;37m[1/8/2024, 9:38:58 PM] [0m[0;36m[Homebridge UI][0m Homebridge restart request received
+[0;37m[1/8/2024, 9:38:58 PM] [0m[0;36m[Homebridge UI][0m UI / Bridge settings have not changed; only restarting Homebridge process
+[0;37m[1/8/2024, 9:38:58 PM] [0m[0;36m[Homebridge UI][0m Sending SIGTERM to Homebridge
+[37m[1/8/2024, 9:38:58 PM] [39mGot SIGTERM, shutting down Homebridge...
+[37m[1/8/2024, 9:38:58 PM] [39mGot SIGTERM, shutting down child bridge process...
+[37m[1/8/2024, 9:39:03 PM][0m [36m[HB Supervisor][0m Homebridge Process Ended. Code: 143, Signal: null
+[37m[1/8/2024, 9:39:08 PM][0m [36m[HB Supervisor][0m Restarting Homebridge...
+[37m[1/8/2024, 9:39:08 PM][0m [36m[HB Supervisor][0m Starting Homebridge with extra flags: -I -P /var/lib/homebridge/node_modules --strict-plugin-resolution
+[37m[1/8/2024, 9:39:08 PM][0m [36m[HB Supervisor][0m Started Homebridge v1.7.0 with PID: 3736
+[37m[1/8/2024, 9:39:10 PM] [39mLoaded config.json with 0 accessories and 4 platforms.
+[37m[1/8/2024, 9:39:10 PM] [39mLoaded 0 cached accessories from cachedAccessories.
+[37m[1/8/2024, 9:39:10 PM] [39m---
+[37m[1/8/2024, 9:39:10 PM] [39mLoaded plugin: homebridge-z2m@1.9.3
+[37m[1/8/2024, 9:39:10 PM] [39mRegistering platform 'homebridge-z2m.zigbee2mqtt'
+[37m[1/8/2024, 9:39:10 PM] [39m---
+[37m[1/8/2024, 9:39:11 PM] [39mLoaded plugin: @0x5e/homebridge-tuya-platform@1.7.0-beta.52
+[37m[1/8/2024, 9:39:11 PM] [39mRegistering platform '@0x5e/homebridge-tuya-platform.TuyaPlatform'
+[37m[1/8/2024, 9:39:11 PM] [39m---
+[37m[1/8/2024, 9:39:12 PM] [39mLoaded plugin: @tuxbox/homebridge-homeassistant@1.0.6-beta.12
+[37m[1/8/2024, 9:39:12 PM] [39mRegistering platform '@tuxbox/homebridge-homeassistant.HombridgePluginHomeassistant'
+[37m[1/8/2024, 9:39:12 PM] [39m---
+[37m[1/8/2024, 9:39:12 PM] [39mLoading 4 platforms...
+[37m[1/8/2024, 9:39:12 PM] [39m[36m[HombridgePluginHomeassistant][39m Initializing HombridgePluginHomeassistant platform...
+[37m[1/8/2024, 9:39:12 PM] [39m[36m[zigbee2mqtt][39m Initializing zigbee2mqtt platform...
+[37m[1/8/2024, 9:39:12 PM] [39m[36m[zigbee2mqtt][39m Initializing child bridge 0E:30:BF:4E:E2:C6
+[37m[1/8/2024, 9:39:12 PM] [39m[36m[Tuya][39m Initializing TuyaPlatform platform...
+[37m[1/8/2024, 9:39:12 PM] [39m[36m[Tuya][39m [31minstance.countryCode is required[39m
+[37m[1/8/2024, 9:39:12 PM] [39m[36m[Tuya][39m [31minstance.username is required[39m
+[37m[1/8/2024, 9:39:12 PM] [39m[36m[Tuya][39m [31minstance.password is required[39m
+[37m[1/8/2024, 9:39:12 PM] [39m[36m[HombridgePluginHomeassistant][39m Configuration: {"protocol":"tcp","host":"localhost","port":1883,"homeassistantBaseTopic":"homeassistant","username":"northisup","password":"upr@aha2pfx9KYP2yzh","platform":"HombridgePluginHomeassistant"}
+[37m[1/8/2024, 9:39:12 PM] [39m[36m[HombridgePluginHomeassistant][39m Connecting to localhost
+Setup Payload:
+X-HM://002431D97IIWV
+Enter this code with your HomeKit app on your iOS device to pair with Homebridge:
+[30m[47m                       [49m[39m
+[30m[47m    ┌────────────┐     [49m[39m
+[30m[47m    │ 371-29-307 │     [49m[39m
+[30m[47m    └────────────┘     [49m[39m
+[30m[47m                       [49m[39m
+[37m[1/8/2024, 9:39:12 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (Homebridge 1D39) is running on port 51105.
+[37m[1/8/2024, 9:39:12 PM] [39m[36m[HombridgePluginHomeassistant][39m connected to tcp://northisup@localhost:1883
+[37m[1/8/2024, 9:39:12 PM] [39m[36m[HombridgePluginHomeassistant][39m registering MQTT message handler
+[37m[1/8/2024, 9:39:12 PM] [39m[36m[HombridgePluginHomeassistant][39m subscribing to topic "homeassistant/#"
+[37m[1/8/2024, 9:39:13 PM] [39m[36m[homebridge-z2m][39m Launched child bridge with PID 3774
+[37m[1/8/2024, 9:39:14 PM] [39mRegistering platform 'homebridge-z2m.zigbee2mqtt'
+[37m[1/8/2024, 9:39:14 PM] [39m[36m[homebridge-z2m][39m Loaded homebridge-z2m v1.9.3 child bridge successfully
+[37m[1/8/2024, 9:39:14 PM] [39mLoaded 1 cached accessories from cachedAccessories.0E30BF4EE2C6.
+[37m[1/8/2024, 9:39:14 PM] [39m[36m[homebridge-z2m][39m Connecting to MQTT server at mqtt://localhost:1883
+[37m[1/8/2024, 9:39:14 PM] [39m[36m[homebridge-z2m][39m Restoring accessory: 0xa4c138342cf0962d (0xa4c138342cf0962d)
+[37m[1/8/2024, 9:39:14 PM] [39m[36m[homebridge-z2m][39m Mapping of property 'action' of device '0xa4c138342cf0962d':
+Button 1 (1):
+	- SINGLE: 1_single
+	- DOUBLE: 1_double
+	- LONG  : 1_hold
+Button 2 (2):
+	- SINGLE: 2_single
+	- DOUBLE: 2_double
+	- LONG  : 2_hold
+[37m[1/8/2024, 9:39:14 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (homebridge-z2m) is running on port 33404.
+[37m[1/8/2024, 9:39:14 PM] [39m[36m[homebridge-z2m][39m Connected to MQTT server
+[37m[1/8/2024, 9:39:14 PM] [39m[36m[homebridge-z2m][39m Using Zigbee2MQTT v1.35.1 (identified via zigbee2mqtt/bridge/info)
+[37m[1/8/2024, 9:39:29 PM] [39m[36m[homebridge-z2m][39m [31mZigbee2MQTT is OFFLINE![39m
+[0;37m[1/8/2024, 9:40:50 PM] [0m[0;36m[Homebridge UI][0m Changes to config.json saved.
+[0;37m[1/8/2024, 9:40:51 PM] [0m[0;36m[Homebridge UI][0m Homebridge restart request received
+[0;37m[1/8/2024, 9:40:51 PM] [0m[0;36m[Homebridge UI][0m UI / Bridge settings have not changed; only restarting Homebridge process
+[0;37m[1/8/2024, 9:40:51 PM] [0m[0;36m[Homebridge UI][0m Sending SIGTERM to Homebridge
+[37m[1/8/2024, 9:40:51 PM] [39mGot SIGTERM, shutting down Homebridge...
+[37m[1/8/2024, 9:40:51 PM] [39mGot SIGTERM, shutting down child bridge process...
+[37m[1/8/2024, 9:40:56 PM][0m [36m[HB Supervisor][0m Homebridge Process Ended. Code: 143, Signal: null
+[37m[1/8/2024, 9:41:01 PM][0m [36m[HB Supervisor][0m Restarting Homebridge...
+[37m[1/8/2024, 9:41:01 PM][0m [36m[HB Supervisor][0m Starting Homebridge with extra flags: -I -P /var/lib/homebridge/node_modules --strict-plugin-resolution
+[37m[1/8/2024, 9:41:01 PM][0m [36m[HB Supervisor][0m Started Homebridge v1.7.0 with PID: 3994
+[37m[1/8/2024, 9:41:03 PM] [39mLoaded config.json with 0 accessories and 4 platforms.
+[37m[1/8/2024, 9:41:03 PM] [39mLoaded 0 cached accessories from cachedAccessories.
+[37m[1/8/2024, 9:41:03 PM] [39m---
+[37m[1/8/2024, 9:41:03 PM] [39mLoaded plugin: homebridge-z2m@1.9.3
+[37m[1/8/2024, 9:41:03 PM] [39mRegistering platform 'homebridge-z2m.zigbee2mqtt'
+[37m[1/8/2024, 9:41:03 PM] [39m---
+[37m[1/8/2024, 9:41:04 PM] [39mLoaded plugin: @0x5e/homebridge-tuya-platform@1.7.0-beta.52
+[37m[1/8/2024, 9:41:04 PM] [39mRegistering platform '@0x5e/homebridge-tuya-platform.TuyaPlatform'
+[37m[1/8/2024, 9:41:04 PM] [39m---
+[37m[1/8/2024, 9:41:04 PM] [39mLoaded plugin: @tuxbox/homebridge-homeassistant@1.0.6-beta.12
+[37m[1/8/2024, 9:41:04 PM] [39mRegistering platform '@tuxbox/homebridge-homeassistant.HombridgePluginHomeassistant'
+[37m[1/8/2024, 9:41:04 PM] [39m---
+[37m[1/8/2024, 9:41:04 PM] [39mLoading 4 platforms...
+[37m[1/8/2024, 9:41:04 PM] [39m[36m[HombridgePluginHomeassistant][39m Initializing HombridgePluginHomeassistant platform...
+[37m[1/8/2024, 9:41:04 PM] [39m[36m[zigbee2mqtt][39m Initializing zigbee2mqtt platform...
+[37m[1/8/2024, 9:41:04 PM] [39m[36m[zigbee2mqtt][39m Initializing child bridge 0E:30:BF:4E:E2:C6
+[37m[1/8/2024, 9:41:04 PM] [39m[36m[Tuya][39m Initializing TuyaPlatform platform...
+[37m[1/8/2024, 9:41:04 PM] [39m[36m[Tuya][39m Initializing child bridge 0E:84:B2:53:F7:63
+[37m[1/8/2024, 9:41:05 PM] [39m[36m[HombridgePluginHomeassistant][39m Configuration: {"protocol":"tcp","host":"localhost","port":1883,"homeassistantBaseTopic":"homeassistant","username":"northisup","password":"upr@aha2pfx9KYP2yzh","platform":"HombridgePluginHomeassistant"}
+[37m[1/8/2024, 9:41:05 PM] [39m[36m[HombridgePluginHomeassistant][39m Connecting to localhost
+Setup Payload:
+X-HM://002431D97IIWV
+Enter this code with your HomeKit app on your iOS device to pair with Homebridge:
+[30m[47m                       [49m[39m
+[30m[47m    ┌────────────┐     [49m[39m
+[30m[47m    │ 371-29-307 │     [49m[39m
+[30m[47m    └────────────┘     [49m[39m
+[30m[47m                       [49m[39m
+[37m[1/8/2024, 9:41:05 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (Homebridge 1D39) is running on port 51105.
+[37m[1/8/2024, 9:41:05 PM] [39m[36m[HombridgePluginHomeassistant][39m connected to tcp://northisup@localhost:1883
+[37m[1/8/2024, 9:41:05 PM] [39m[36m[HombridgePluginHomeassistant][39m registering MQTT message handler
+[37m[1/8/2024, 9:41:05 PM] [39m[36m[HombridgePluginHomeassistant][39m subscribing to topic "homeassistant/#"
+[37m[1/8/2024, 9:41:06 PM] [39m[36m[Tuya][39m Launched child bridge with PID 4033
+[37m[1/8/2024, 9:41:06 PM] [39m[36m[homebridge-z2m][39m Launched child bridge with PID 4032
+[37m[1/8/2024, 9:41:07 PM] [39mRegistering platform 'homebridge-z2m.zigbee2mqtt'
+[37m[1/8/2024, 9:41:07 PM] [39m[36m[homebridge-z2m][39m Loaded homebridge-z2m v1.9.3 child bridge successfully
+[37m[1/8/2024, 9:41:07 PM] [39mLoaded 1 cached accessories from cachedAccessories.0E30BF4EE2C6.
+[37m[1/8/2024, 9:41:07 PM] [39m[36m[homebridge-z2m][39m Connecting to MQTT server at mqtt://localhost:1883
+[37m[1/8/2024, 9:41:07 PM] [39m[36m[homebridge-z2m][39m Restoring accessory: 0xa4c138342cf0962d (0xa4c138342cf0962d)
+[37m[1/8/2024, 9:41:07 PM] [39m[36m[homebridge-z2m][39m Mapping of property 'action' of device '0xa4c138342cf0962d':
+Button 1 (1):
+	- SINGLE: 1_single
+	- DOUBLE: 1_double
+	- LONG  : 1_hold
+Button 2 (2):
+	- SINGLE: 2_single
+	- DOUBLE: 2_double
+	- LONG  : 2_hold
+[37m[1/8/2024, 9:41:07 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (homebridge-z2m) is running on port 33404.
+[37m[1/8/2024, 9:41:07 PM] [39m[36m[homebridge-z2m][39m Connected to MQTT server
+[37m[1/8/2024, 9:41:07 PM] [39m[36m[homebridge-z2m][39m Using Zigbee2MQTT v1.35.1 (identified via zigbee2mqtt/bridge/info)
+[37m[1/8/2024, 9:41:07 PM] [39mRegistering platform '@0x5e/homebridge-tuya-platform.TuyaPlatform'
+[37m[1/8/2024, 9:41:07 PM] [39m[36m[Tuya][39m Loaded @0x5e/homebridge-tuya-platform v1.7.0-beta.52 child bridge successfully
+[37m[1/8/2024, 9:41:08 PM] [39m[36m[Tuya][39m [31minstance.countryCode is required[39m
+[37m[1/8/2024, 9:41:08 PM] [39m[36m[Tuya][39m [31minstance.username is required[39m
+[37m[1/8/2024, 9:41:08 PM] [39m[36m[Tuya][39m [31minstance.password is required[39m
+[37m[1/8/2024, 9:41:08 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (Tuya) is running on port 30691.
+[0;37m[1/8/2024, 9:41:23 PM] [0m[0;36m[Homebridge UI][0m Homebridge restart request received
+[0;37m[1/8/2024, 9:41:23 PM] [0m[0;36m[Homebridge UI][0m UI / Bridge settings have not changed; only restarting Homebridge process
+[0;37m[1/8/2024, 9:41:23 PM] [0m[0;36m[Homebridge UI][0m Sending SIGTERM to Homebridge
+[37m[1/8/2024, 9:41:23 PM] [39mGot SIGTERM, shutting down Homebridge...
+[37m[1/8/2024, 9:41:23 PM] [39mGot SIGTERM, shutting down child bridge process...
+[37m[1/8/2024, 9:41:23 PM] [39mGot SIGTERM, shutting down child bridge process...
+[37m[1/8/2024, 9:41:28 PM][0m [36m[HB Supervisor][0m Homebridge Process Ended. Code: 143, Signal: null
+[37m[1/8/2024, 9:41:33 PM][0m [36m[HB Supervisor][0m Restarting Homebridge...
+[37m[1/8/2024, 9:41:33 PM][0m [36m[HB Supervisor][0m Starting Homebridge with extra flags: -I -P /var/lib/homebridge/node_modules --strict-plugin-resolution
+[37m[1/8/2024, 9:41:33 PM][0m [36m[HB Supervisor][0m Started Homebridge v1.7.0 with PID: 4272
+[37m[1/8/2024, 9:41:34 PM] [39mLoaded config.json with 0 accessories and 4 platforms.
+[37m[1/8/2024, 9:41:34 PM] [39mLoaded 0 cached accessories from cachedAccessories.
+[37m[1/8/2024, 9:41:34 PM] [39m---
+[37m[1/8/2024, 9:41:35 PM] [39mLoaded plugin: homebridge-z2m@1.9.3
+[37m[1/8/2024, 9:41:35 PM] [39mRegistering platform 'homebridge-z2m.zigbee2mqtt'
+[37m[1/8/2024, 9:41:35 PM] [39m---
+[37m[1/8/2024, 9:41:36 PM] [39mLoaded plugin: @0x5e/homebridge-tuya-platform@1.7.0-beta.52
+[37m[1/8/2024, 9:41:36 PM] [39mRegistering platform '@0x5e/homebridge-tuya-platform.TuyaPlatform'
+[37m[1/8/2024, 9:41:36 PM] [39m---
+[37m[1/8/2024, 9:41:37 PM] [39mLoaded plugin: @tuxbox/homebridge-homeassistant@1.0.6-beta.12
+[37m[1/8/2024, 9:41:37 PM] [39mRegistering platform '@tuxbox/homebridge-homeassistant.HombridgePluginHomeassistant'
+[37m[1/8/2024, 9:41:37 PM] [39m---
+[37m[1/8/2024, 9:41:37 PM] [39mLoading 4 platforms...
+[37m[1/8/2024, 9:41:37 PM] [39m[36m[HombridgePluginHomeassistant][39m Initializing HombridgePluginHomeassistant platform...
+[37m[1/8/2024, 9:41:37 PM] [39m[36m[zigbee2mqtt][39m Initializing zigbee2mqtt platform...
+[37m[1/8/2024, 9:41:37 PM] [39m[36m[zigbee2mqtt][39m Initializing child bridge 0E:30:BF:4E:E2:C6
+[37m[1/8/2024, 9:41:37 PM] [39m[36m[Tuya][39m Initializing TuyaPlatform platform...
+[37m[1/8/2024, 9:41:37 PM] [39m[36m[Tuya][39m Initializing child bridge 0E:84:B2:53:F7:63
+[37m[1/8/2024, 9:41:37 PM] [39m[36m[HombridgePluginHomeassistant][39m Configuration: {"protocol":"tcp","host":"localhost","port":1883,"homeassistantBaseTopic":"homeassistant","username":"northisup","password":"upr@aha2pfx9KYP2yzh","platform":"HombridgePluginHomeassistant"}
+[37m[1/8/2024, 9:41:37 PM] [39m[36m[HombridgePluginHomeassistant][39m Connecting to localhost
+Setup Payload:
+X-HM://002431D97IIWV
+Enter this code with your HomeKit app on your iOS device to pair with Homebridge:
+[30m[47m                       [49m[39m
+[30m[47m    ┌────────────┐     [49m[39m
+[30m[47m    │ 371-29-307 │     [49m[39m
+[30m[47m    └────────────┘     [49m[39m
+[30m[47m                       [49m[39m
+[37m[1/8/2024, 9:41:37 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (Homebridge 1D39) is running on port 51105.
+[37m[1/8/2024, 9:41:37 PM] [39m[36m[HombridgePluginHomeassistant][39m connected to tcp://northisup@localhost:1883
+[37m[1/8/2024, 9:41:37 PM] [39m[36m[HombridgePluginHomeassistant][39m registering MQTT message handler
+[37m[1/8/2024, 9:41:37 PM] [39m[36m[HombridgePluginHomeassistant][39m subscribing to topic "homeassistant/#"
+[37m[1/8/2024, 9:41:39 PM] [39m[36m[homebridge-z2m][39m Launched child bridge with PID 4299
+[37m[1/8/2024, 9:41:39 PM] [39m[36m[Tuya][39m Launched child bridge with PID 4300
+[37m[1/8/2024, 9:41:39 PM] [39mRegistering platform 'homebridge-z2m.zigbee2mqtt'
+[37m[1/8/2024, 9:41:39 PM] [39m[36m[homebridge-z2m][39m Loaded homebridge-z2m v1.9.3 child bridge successfully
+[37m[1/8/2024, 9:41:39 PM] [39mLoaded 1 cached accessories from cachedAccessories.0E30BF4EE2C6.
+[37m[1/8/2024, 9:41:39 PM] [39m[36m[homebridge-z2m][39m Connecting to MQTT server at mqtt://localhost:1883
+[37m[1/8/2024, 9:41:39 PM] [39m[36m[homebridge-z2m][39m Restoring accessory: 0xa4c138342cf0962d (0xa4c138342cf0962d)
+[37m[1/8/2024, 9:41:39 PM] [39m[36m[homebridge-z2m][39m Mapping of property 'action' of device '0xa4c138342cf0962d':
+Button 1 (1):
+	- SINGLE: 1_single
+	- DOUBLE: 1_double
+	- LONG  : 1_hold
+Button 2 (2):
+	- SINGLE: 2_single
+	- DOUBLE: 2_double
+	- LONG  : 2_hold
+[37m[1/8/2024, 9:41:40 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (homebridge-z2m) is running on port 33404.
+[37m[1/8/2024, 9:41:40 PM] [39m[36m[homebridge-z2m][39m Connected to MQTT server
+[37m[1/8/2024, 9:41:40 PM] [39m[36m[homebridge-z2m][39m Using Zigbee2MQTT v1.35.1 (identified via zigbee2mqtt/bridge/info)
+[37m[1/8/2024, 9:41:40 PM] [39mRegistering platform '@0x5e/homebridge-tuya-platform.TuyaPlatform'
+[37m[1/8/2024, 9:41:40 PM] [39m[36m[Tuya][39m Loaded @0x5e/homebridge-tuya-platform v1.7.0-beta.52 child bridge successfully
+[37m[1/8/2024, 9:41:40 PM] [39mLoaded 0 cached accessories from cachedAccessories.0E84B253F763.
+[37m[1/8/2024, 9:41:40 PM] [39m[36m[Tuya][39m [31minstance.countryCode is required[39m
+[37m[1/8/2024, 9:41:40 PM] [39m[36m[Tuya][39m [31minstance.username is required[39m
+[37m[1/8/2024, 9:41:40 PM] [39m[36m[Tuya][39m [31minstance.password is required[39m
+[37m[1/8/2024, 9:41:40 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (Tuya) is running on port 30691.
+[0;37m[1/8/2024, 9:42:02 PM] [0m[0;36m[Homebridge UI][0m Changes to config.json saved.
+[0;37m[1/8/2024, 9:42:04 PM] [0m[0;36m[Homebridge UI][0m Homebridge restart request received
+[0;37m[1/8/2024, 9:42:04 PM] [0m[0;36m[Homebridge UI][0m UI / Bridge settings have not changed; only restarting Homebridge process
+[0;37m[1/8/2024, 9:42:04 PM] [0m[0;36m[Homebridge UI][0m Sending SIGTERM to Homebridge
+[37m[1/8/2024, 9:42:04 PM] [39mGot SIGTERM, shutting down Homebridge...
+[37m[1/8/2024, 9:42:04 PM] [39mGot SIGTERM, shutting down child bridge process...
+[37m[1/8/2024, 9:42:04 PM] [39mGot SIGTERM, shutting down child bridge process...
+[37m[1/8/2024, 9:42:09 PM][0m [36m[HB Supervisor][0m Homebridge Process Ended. Code: 143, Signal: null
+[37m[1/8/2024, 9:42:14 PM][0m [36m[HB Supervisor][0m Restarting Homebridge...
+[37m[1/8/2024, 9:42:14 PM][0m [36m[HB Supervisor][0m Starting Homebridge with extra flags: -I -P /var/lib/homebridge/node_modules --strict-plugin-resolution
+[37m[1/8/2024, 9:42:14 PM][0m [36m[HB Supervisor][0m Started Homebridge v1.7.0 with PID: 4373
+[37m[1/8/2024, 9:42:16 PM] [39mLoaded config.json with 0 accessories and 4 platforms.
+[37m[1/8/2024, 9:42:16 PM] [39mLoaded 0 cached accessories from cachedAccessories.
+[37m[1/8/2024, 9:42:16 PM] [39m---
+[37m[1/8/2024, 9:42:17 PM] [39mLoaded plugin: homebridge-z2m@1.9.3
+[37m[1/8/2024, 9:42:17 PM] [39mRegistering platform 'homebridge-z2m.zigbee2mqtt'
+[37m[1/8/2024, 9:42:17 PM] [39m---
+[37m[1/8/2024, 9:42:18 PM] [39mLoaded plugin: @0x5e/homebridge-tuya-platform@1.7.0-beta.52
+[37m[1/8/2024, 9:42:18 PM] [39mRegistering platform '@0x5e/homebridge-tuya-platform.TuyaPlatform'
+[37m[1/8/2024, 9:42:18 PM] [39m---
+[37m[1/8/2024, 9:42:18 PM] [39mLoaded plugin: @tuxbox/homebridge-homeassistant@1.0.6-beta.12
+[37m[1/8/2024, 9:42:18 PM] [39mRegistering platform '@tuxbox/homebridge-homeassistant.HombridgePluginHomeassistant'
+[37m[1/8/2024, 9:42:18 PM] [39m---
+[37m[1/8/2024, 9:42:18 PM] [39mLoading 4 platforms...
+[37m[1/8/2024, 9:42:18 PM] [39m[36m[HombridgePluginHomeassistant][39m Initializing HombridgePluginHomeassistant platform...
+[37m[1/8/2024, 9:42:18 PM] [39m[36m[zigbee2mqtt][39m Initializing zigbee2mqtt platform...
+[37m[1/8/2024, 9:42:18 PM] [39m[36m[zigbee2mqtt][39m Initializing child bridge 0E:30:BF:4E:E2:C6
+[37m[1/8/2024, 9:42:18 PM] [39m[36m[Tuya][39m Initializing TuyaPlatform platform...
+[37m[1/8/2024, 9:42:18 PM] [39m[36m[Tuya][39m Initializing child bridge 0E:84:B2:53:F7:63
+[37m[1/8/2024, 9:42:18 PM] [39m[36m[HombridgePluginHomeassistant][39m Configuration: {"protocol":"tcp","host":"localhost","port":1883,"homeassistantBaseTopic":"homeassistant","username":"northisup","password":"upr@aha2pfx9KYP2yzh","platform":"HombridgePluginHomeassistant"}
+[37m[1/8/2024, 9:42:18 PM] [39m[36m[HombridgePluginHomeassistant][39m Connecting to localhost
+Setup Payload:
+X-HM://002431D97IIWV
+Enter this code with your HomeKit app on your iOS device to pair with Homebridge:
+[30m[47m                       [49m[39m
+[30m[47m    ┌────────────┐     [49m[39m
+[30m[47m    │ 371-29-307 │     [49m[39m
+[30m[47m    └────────────┘     [49m[39m
+[30m[47m                       [49m[39m
+[37m[1/8/2024, 9:42:18 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (Homebridge 1D39) is running on port 51105.
+[37m[1/8/2024, 9:42:18 PM] [39m[36m[HombridgePluginHomeassistant][39m connected to tcp://northisup@localhost:1883
+[37m[1/8/2024, 9:42:18 PM] [39m[36m[HombridgePluginHomeassistant][39m registering MQTT message handler
+[37m[1/8/2024, 9:42:18 PM] [39m[36m[HombridgePluginHomeassistant][39m subscribing to topic "homeassistant/#"
+[37m[1/8/2024, 9:42:20 PM] [39m[36m[homebridge-z2m][39m Launched child bridge with PID 4414
+[37m[1/8/2024, 9:42:20 PM] [39m[36m[Tuya][39m Launched child bridge with PID 4415
+[37m[1/8/2024, 9:42:20 PM] [39mRegistering platform 'homebridge-z2m.zigbee2mqtt'
+[37m[1/8/2024, 9:42:21 PM] [39m[36m[homebridge-z2m][39m Loaded homebridge-z2m v1.9.3 child bridge successfully
+[37m[1/8/2024, 9:42:21 PM] [39mLoaded 1 cached accessories from cachedAccessories.0E30BF4EE2C6.
+[37m[1/8/2024, 9:42:21 PM] [39m[36m[homebridge-z2m][39m Connecting to MQTT server at mqtt://localhost:1883
+[37m[1/8/2024, 9:42:21 PM] [39m[36m[homebridge-z2m][39m Restoring accessory: 0xa4c138342cf0962d (0xa4c138342cf0962d)
+[37m[1/8/2024, 9:42:21 PM] [39m[36m[homebridge-z2m][39m Mapping of property 'action' of device '0xa4c138342cf0962d':
+Button 1 (1):
+	- SINGLE: 1_single
+	- DOUBLE: 1_double
+	- LONG  : 1_hold
+Button 2 (2):
+	- SINGLE: 2_single
+	- DOUBLE: 2_double
+	- LONG  : 2_hold
+[37m[1/8/2024, 9:42:21 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (homebridge-z2m) is running on port 33404.
+[37m[1/8/2024, 9:42:21 PM] [39m[36m[homebridge-z2m][39m Connected to MQTT server
+[37m[1/8/2024, 9:42:21 PM] [39m[36m[homebridge-z2m][39m Using Zigbee2MQTT v1.35.1 (identified via zigbee2mqtt/bridge/info)
+[37m[1/8/2024, 9:42:21 PM] [39mRegistering platform '@0x5e/homebridge-tuya-platform.TuyaPlatform'
+[37m[1/8/2024, 9:42:21 PM] [39m[36m[Tuya][39m Loaded @0x5e/homebridge-tuya-platform v1.7.0-beta.52 child bridge successfully
+[37m[1/8/2024, 9:42:22 PM] [39mLoaded 0 cached accessories from cachedAccessories.0E84B253F763.
+[37m[1/8/2024, 9:42:22 PM] [39m[36m[Tuya][39m [31minstance.countryCode is required[39m
+[37m[1/8/2024, 9:42:22 PM] [39m[36m[Tuya][39m [31minstance.username is required[39m
+[37m[1/8/2024, 9:42:22 PM] [39m[36m[Tuya][39m [31minstance.password is required[39m
+[37m[1/8/2024, 9:42:22 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (Tuya) is running on port 30691.
+[37m[1/8/2024, 9:43:30 PM] [39m[36m[homebridge-z2m][39m [31mZigbee2MQTT is OFFLINE![39m
+[37m[1/8/2024, 9:47:03 PM] [39m[36m[homebridge-z2m][39m [31mZigbee2MQTT is OFFLINE![39m
+[37m[1/8/2024, 9:50:35 PM] [39m[36m[homebridge-z2m][39m [31mZigbee2MQTT is OFFLINE![39m
+[0;37m[1/8/2024, 9:50:44 PM] [0m[0;36m[Homebridge UI][0m Changes to config.json saved.
+[37m[1/8/2024, 9:50:46 PM] [39m[36m[Tuya][39m [33mRestarting child bridge...[39m
+[37m[1/8/2024, 9:50:46 PM] [39mGot SIGTERM, shutting down child bridge process...
+[37m[1/8/2024, 9:50:51 PM] [39m[36m[Tuya][39m [33mChild bridge process ended[39m
+[37m[1/8/2024, 9:50:51 PM] [39m[36m[Tuya][39m Process Ended. Code: 143, Signal: null
+[0;37m[1/8/2024, 9:50:58 PM] [0m[0;36m[Homebridge UI][0m Changes to config.json saved.
+[37m[1/8/2024, 9:50:58 PM] [39m[36m[Tuya][39m Restarting Process...
+[37m[1/8/2024, 9:50:59 PM] [39m[36m[Tuya][39m Launched child bridge with PID 6654
+[0;37m[1/8/2024, 9:50:59 PM] [0m[0;36m[Homebridge UI][0m Homebridge restart request received
+[0;37m[1/8/2024, 9:50:59 PM] [0m[0;36m[Homebridge UI][0m UI / Bridge settings have not changed; only restarting Homebridge process
+[0;37m[1/8/2024, 9:50:59 PM] [0m[0;36m[Homebridge UI][0m Sending SIGTERM to Homebridge
+[37m[1/8/2024, 9:50:59 PM] [39mGot SIGTERM, shutting down Homebridge...
+[37m[1/8/2024, 9:50:59 PM] [39mGot SIGTERM, shutting down child bridge process...
+[37m[1/8/2024, 9:51:00 PM] [39mRegistering platform '@0x5e/homebridge-tuya-platform.TuyaPlatform'
+[37m[1/8/2024, 9:51:00 PM] [39m[36m[Tuya][39m Loaded @0x5e/homebridge-tuya-platform v1.7.0-beta.52 child bridge successfully
+[37m[1/8/2024, 9:51:00 PM] [39mGot SIGTERM, shutting down child bridge process...
+[37m[1/8/2024, 9:51:00 PM] [39mLoaded 0 cached accessories from cachedAccessories.0E84B253F763.
+[37m[1/8/2024, 9:51:00 PM] [39m[36m[Tuya][39m Log in to Tuya Cloud.
+[37m[1/8/2024, 9:51:00 PM] [39m[36m[Tuya][39m [TuyaOpenAPI] Login to: https://openapi.tuyaus.com
+[37m[1/8/2024, 9:51:01 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (Tuya) is running on port 30691.
+[37m[1/8/2024, 9:51:01 PM] [39m[36m[Tuya][39m Start MQTT connection.
+[37m[1/8/2024, 9:51:01 PM] [39m[36m[Tuya][39m Fetching home list.
+[37m[1/8/2024, 9:51:01 PM] [39m[36m[Tuya][39m Got home_id=180891657, name=My Home ..
+[37m[1/8/2024, 9:51:01 PM] [39m[36m[Tuya][39m Fetching device list.
+[37m[1/8/2024, 9:51:02 PM] [39m[36m[Tuya][39m Fetching scene list.
+[37m[1/8/2024, 9:51:03 PM] [39m[36m[Tuya][39m Got scene_id=Urfjl4U3yIAlKi2k, name=Door Buzzer
+[37m[1/8/2024, 9:51:03 PM] [39m[36m[Tuya][39m Got 3 device(s) and scene(s).
+[37m[1/8/2024, 9:51:03 PM] [39m[36m[Tuya][39m Device list saved at /var/lib/homebridge/persist/TuyaDeviceList.az1703226782376TkGo5.json
+[37m[1/8/2024, 9:51:03 PM] [39m[36m[Tuya][39m Adding new accessory: Fingerbot  Sense
+[37m[1/8/2024, 9:51:03 PM] [39m[36m[Tuya][39m Adding new accessory: Smart Gateway
+[37m[1/8/2024, 9:51:03 PM] [39m[36m[Tuya][39m [33mUnsupported device: Smart Gateway.[39m
+[37m[1/8/2024, 9:51:03 PM] [39m[36m[Tuya][39m Adding new accessory: Door Buzzer
+[37m[1/8/2024, 9:51:04 PM][0m [36m[HB Supervisor][0m Homebridge Process Ended. Code: 143, Signal: null
+[37m[1/8/2024, 9:51:09 PM][0m [36m[HB Supervisor][0m Restarting Homebridge...
+[37m[1/8/2024, 9:51:09 PM][0m [36m[HB Supervisor][0m Starting Homebridge with extra flags: -I -P /var/lib/homebridge/node_modules --strict-plugin-resolution
+[37m[1/8/2024, 9:51:09 PM][0m [36m[HB Supervisor][0m Started Homebridge v1.7.0 with PID: 6669
+[37m[1/8/2024, 9:51:11 PM] [39mLoaded config.json with 0 accessories and 4 platforms.
+[37m[1/8/2024, 9:51:11 PM] [39mLoaded 0 cached accessories from cachedAccessories.
+[37m[1/8/2024, 9:51:11 PM] [39m---
+[37m[1/8/2024, 9:51:11 PM] [39mLoaded plugin: homebridge-z2m@1.9.3
+[37m[1/8/2024, 9:51:11 PM] [39mRegistering platform 'homebridge-z2m.zigbee2mqtt'
+[37m[1/8/2024, 9:51:11 PM] [39m---
+[37m[1/8/2024, 9:51:12 PM] [39mLoaded plugin: @0x5e/homebridge-tuya-platform@1.7.0-beta.52
+[37m[1/8/2024, 9:51:12 PM] [39mRegistering platform '@0x5e/homebridge-tuya-platform.TuyaPlatform'
+[37m[1/8/2024, 9:51:12 PM] [39m---
+[37m[1/8/2024, 9:51:12 PM] [39mLoaded plugin: @tuxbox/homebridge-homeassistant@1.0.6-beta.12
+[37m[1/8/2024, 9:51:12 PM] [39mRegistering platform '@tuxbox/homebridge-homeassistant.HombridgePluginHomeassistant'
+[37m[1/8/2024, 9:51:12 PM] [39m---
+[37m[1/8/2024, 9:51:12 PM] [39mLoading 4 platforms...
+[37m[1/8/2024, 9:51:12 PM] [39m[36m[HombridgePluginHomeassistant][39m Initializing HombridgePluginHomeassistant platform...
+[37m[1/8/2024, 9:51:12 PM] [39m[36m[HombridgePluginHomeassistant][39m Initializing child bridge 0E:BF:D5:A9:BD:90
+[37m[1/8/2024, 9:51:12 PM] [39m[36m[zigbee2mqtt][39m Initializing zigbee2mqtt platform...
+[37m[1/8/2024, 9:51:12 PM] [39m[36m[zigbee2mqtt][39m Initializing child bridge 0E:30:BF:4E:E2:C6
+[37m[1/8/2024, 9:51:12 PM] [39m[36m[Tuya][39m Initializing TuyaPlatform platform...
+[37m[1/8/2024, 9:51:12 PM] [39m[36m[Tuya][39m Initializing child bridge 0E:84:B2:53:F7:63
+Setup Payload:
+X-HM://002431D97IIWV
+Enter this code with your HomeKit app on your iOS device to pair with Homebridge:
+[30m[47m                       [49m[39m
+[30m[47m    ┌────────────┐     [49m[39m
+[30m[47m    │ 371-29-307 │     [49m[39m
+[30m[47m    └────────────┘     [49m[39m
+[30m[47m                       [49m[39m
+[37m[1/8/2024, 9:51:13 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (Homebridge 1D39) is running on port 51105.
+[37m[1/8/2024, 9:51:15 PM] [39m[36m[Tuya][39m Launched child bridge with PID 6866
+[37m[1/8/2024, 9:51:15 PM] [39m[36m[@tuxbox/homebridge-homeassistant][39m Launched child bridge with PID 6864
+[37m[1/8/2024, 9:51:15 PM] [39m[36m[homebridge-z2m][39m Launched child bridge with PID 6865
+[37m[1/8/2024, 9:51:16 PM] [39mRegistering platform '@tuxbox/homebridge-homeassistant.HombridgePluginHomeassistant'
+[37m[1/8/2024, 9:51:16 PM] [39m[36m[@tuxbox/homebridge-homeassistant][39m Loaded @tuxbox/homebridge-homeassistant v1.0.6-beta.12 child bridge successfully
+[37m[1/8/2024, 9:51:16 PM] [39mRegistering platform 'homebridge-z2m.zigbee2mqtt'
+[37m[1/8/2024, 9:51:16 PM] [39m[36m[homebridge-z2m][39m Loaded homebridge-z2m v1.9.3 child bridge successfully
+[37m[1/8/2024, 9:51:16 PM] [39mLoaded 1 cached accessories from cachedAccessories.0E30BF4EE2C6.
+[37m[1/8/2024, 9:51:16 PM] [39m[36m[homebridge-z2m][39m Connecting to MQTT server at mqtt://localhost:1883
+[37m[1/8/2024, 9:51:16 PM] [39m[36m[@tuxbox/homebridge-homeassistant][39m Configuration: {"protocol":"tcp","host":"localhost","port":1883,"homeassistantBaseTopic":"homeassistant","username":"northisup","password":"upr@aha2pfx9KYP2yzh","platform":"HombridgePluginHomeassistant"}
+[37m[1/8/2024, 9:51:16 PM] [39m[36m[@tuxbox/homebridge-homeassistant][39m Connecting to localhost
+[37m[1/8/2024, 9:51:16 PM] [39m[36m[homebridge-z2m][39m Restoring accessory: 0xa4c138342cf0962d (0xa4c138342cf0962d)
+[37m[1/8/2024, 9:51:16 PM] [39m[36m[homebridge-z2m][39m Mapping of property 'action' of device '0xa4c138342cf0962d':
+Button 1 (1):
+	- SINGLE: 1_single
+	- DOUBLE: 1_double
+	- LONG  : 1_hold
+Button 2 (2):
+	- SINGLE: 2_single
+	- DOUBLE: 2_double
+	- LONG  : 2_hold
+[37m[1/8/2024, 9:51:16 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (@tuxbox/homebridge-homeassistant) is running on port 35756.
+[37m[1/8/2024, 9:51:16 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (homebridge-z2m) is running on port 33404.
+[37m[1/8/2024, 9:51:16 PM] [39m[36m[homebridge-z2m][39m Connected to MQTT server
+[37m[1/8/2024, 9:51:16 PM] [39m[36m[homebridge-z2m][39m Using Zigbee2MQTT v1.35.1 (identified via zigbee2mqtt/bridge/info)
+[37m[1/8/2024, 9:51:17 PM] [39m[36m[@tuxbox/homebridge-homeassistant][39m connected to tcp://northisup@localhost:1883
+[37m[1/8/2024, 9:51:17 PM] [39m[36m[@tuxbox/homebridge-homeassistant][39m registering MQTT message handler
+[37m[1/8/2024, 9:51:17 PM] [39m[36m[@tuxbox/homebridge-homeassistant][39m subscribing to topic "homeassistant/#"
+[37m[1/8/2024, 9:51:17 PM] [39mRegistering platform '@0x5e/homebridge-tuya-platform.TuyaPlatform'
+[37m[1/8/2024, 9:51:17 PM] [39m[36m[Tuya][39m Loaded @0x5e/homebridge-tuya-platform v1.7.0-beta.52 child bridge successfully
+[37m[1/8/2024, 9:51:17 PM] [39mLoaded 3 cached accessories from cachedAccessories.0E84B253F763.
+[37m[1/8/2024, 9:51:17 PM] [39m[36m[Tuya][39m Loading accessory from cache: Fingerbot  Sense
+[37m[1/8/2024, 9:51:17 PM] [39m[36m[Tuya][39m Loading accessory from cache: Smart Gateway
+[37m[1/8/2024, 9:51:17 PM] [39m[36m[Tuya][39m Loading accessory from cache: Door Buzzer
+[37m[1/8/2024, 9:51:17 PM] [39m[36m[Tuya][39m Log in to Tuya Cloud.
+[37m[1/8/2024, 9:51:17 PM] [39m[36m[Tuya][39m [TuyaOpenAPI] Login to: https://openapi.tuyaus.com
+[37m[1/8/2024, 9:51:18 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (Tuya) is running on port 30691.
+[37m[1/8/2024, 9:51:18 PM] [39m[36m[Tuya][39m Start MQTT connection.
+[37m[1/8/2024, 9:51:18 PM] [39m[36m[Tuya][39m Fetching home list.
+[37m[1/8/2024, 9:51:23 PM] [39m[36m[Tuya][39m Got home_id=180891657, name=My Home ..
+[37m[1/8/2024, 9:51:23 PM] [39m[36m[Tuya][39m Fetching device list.
+[37m[1/8/2024, 9:51:24 PM] [39m[36m[Tuya][39m Fetching scene list.
+[37m[1/8/2024, 9:51:24 PM] [39m[36m[Tuya][39m Got scene_id=Urfjl4U3yIAlKi2k, name=Door Buzzer
+[37m[1/8/2024, 9:51:24 PM] [39m[36m[Tuya][39m Got 3 device(s) and scene(s).
+[37m[1/8/2024, 9:51:24 PM] [39m[36m[Tuya][39m Device list saved at /var/lib/homebridge/persist/TuyaDeviceList.az1703226782376TkGo5.json
+[37m[1/8/2024, 9:51:24 PM] [39m[36m[Tuya][39m Restoring existing accessory from cache: Fingerbot  Sense
+[37m[1/8/2024, 9:51:24 PM] [39m[36m[Tuya][39m Restoring existing accessory from cache: Smart Gateway
+[37m[1/8/2024, 9:51:24 PM] [39m[36m[Tuya][39m [33mUnsupported device: Smart Gateway.[39m
+[37m[1/8/2024, 9:51:24 PM] [39m[36m[Tuya][39m Restoring existing accessory from cache: Door Buzzer
+[37m[1/8/2024, 9:54:08 PM] [39m[36m[homebridge-z2m][39m [31mZigbee2MQTT is OFFLINE![39m
+[37m[1/8/2024, 9:57:40 PM] [39m[36m[homebridge-z2m][39m [31mZigbee2MQTT is OFFLINE![39m
+[0;37m[1/8/2024, 10:00:02 PM] [0m[0;36m[Homebridge UI][0m Running Command: npm install --save homebridge-github-backup@1.0.0
+[37m[1/8/2024, 10:01:36 PM] [39m[36m[homebridge-z2m][39m [31mZigbee2MQTT is OFFLINE![39m
+[37m[1/8/2024, 10:05:09 PM] [39m[36m[homebridge-z2m][39m [31mZigbee2MQTT is OFFLINE![39m
+[0;37m[1/8/2024, 10:05:32 PM] [0m[0;36m[Homebridge UI][0m Changes to config.json saved.
+[37m[1/8/2024, 10:08:41 PM] [39m[36m[homebridge-z2m][39m [31mZigbee2MQTT is OFFLINE![39m
+[37m[1/8/2024, 10:12:14 PM] [39m[36m[homebridge-z2m][39m [31mZigbee2MQTT is OFFLINE![39m
+[37m[1/8/2024, 10:15:48 PM] [39m[36m[homebridge-z2m][39m [31mZigbee2MQTT is OFFLINE![39m
+[37m[1/8/2024, 10:19:21 PM] [39m[36m[homebridge-z2m][39m [31mZigbee2MQTT is OFFLINE![39m
+[37m[1/8/2024, 10:22:54 PM] [39m[36m[homebridge-z2m][39m [31mZigbee2MQTT is OFFLINE![39m
+[37m[1/8/2024, 10:27:34 PM] [39m[36m[homebridge-z2m][39m [31mZigbee2MQTT is OFFLINE![39m
+[37m[1/8/2024, 10:31:07 PM] [39m[36m[homebridge-z2m][39m [31mZigbee2MQTT is OFFLINE![39m
+[37m[1/8/2024, 10:34:39 PM] [39m[36m[homebridge-z2m][39m [31mZigbee2MQTT is OFFLINE![39m
+[0;37m[1/8/2024, 10:35:09 PM] [0m[0;36m[Homebridge UI][0m Changes to config.json saved.
+[0;37m[1/8/2024, 10:35:11 PM] [0m[0;36m[Homebridge UI][0m Homebridge restart request received
+[0;37m[1/8/2024, 10:35:11 PM] [0m[0;36m[Homebridge UI][0m UI / Bridge settings have not changed; only restarting Homebridge process
+[0;37m[1/8/2024, 10:35:11 PM] [0m[0;36m[Homebridge UI][0m Sending SIGTERM to Homebridge
+[37m[1/8/2024, 10:35:11 PM] [39mGot SIGTERM, shutting down Homebridge...
+[37m[1/8/2024, 10:35:11 PM] [39mGot SIGTERM, shutting down child bridge process...
+[37m[1/8/2024, 10:35:11 PM] [39mGot SIGTERM, shutting down child bridge process...
+[37m[1/8/2024, 10:35:11 PM] [39mGot SIGTERM, shutting down child bridge process...
+[37m[1/8/2024, 10:35:16 PM][0m [36m[HB Supervisor][0m Homebridge Process Ended. Code: 143, Signal: null
+[37m[1/8/2024, 10:35:21 PM][0m [36m[HB Supervisor][0m Restarting Homebridge...
+[37m[1/8/2024, 10:35:21 PM][0m [36m[HB Supervisor][0m Starting Homebridge with extra flags: -I -P /var/lib/homebridge/node_modules --strict-plugin-resolution
+[37m[1/8/2024, 10:35:21 PM][0m [36m[HB Supervisor][0m Started Homebridge v1.7.0 with PID: 8583
+[37m[1/8/2024, 10:35:22 PM] [39mLoaded config.json with 0 accessories and 4 platforms.
+[37m[1/8/2024, 10:35:22 PM] [39mLoaded 0 cached accessories from cachedAccessories.
+[37m[1/8/2024, 10:35:22 PM] [39m---
+[37m[1/8/2024, 10:35:22 PM] [39m[31m====================[39m
+[37m[1/8/2024, 10:35:22 PM] [39m[31mERROR LOADING PLUGIN homebridge-github-backup:[39m
+[37m[1/8/2024, 10:35:22 PM] [39m[31mError: Cannot find module 'hap-nodejs'[39m
+[31mRequire stack:[39m
+[31m- /homebridge/node_modules/homebridge-github-backup/src/index.js[39m
+[31m- /homebridge/node_modules/homebridge/lib/plugin.js[39m
+[31m- /homebridge/node_modules/homebridge/lib/pluginManager.js[39m
+[31m- /homebridge/node_modules/homebridge/lib/server.js[39m
+[31m- /homebridge/node_modules/homebridge/lib/cli.js[39m
+[31m- /homebridge/node_modules/homebridge/bin/homebridge[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:975:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1225:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (/homebridge/node_modules/homebridge-github-backup/src/index.js:1:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1356:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1414:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1197:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:1013:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1225:19)[39m
+[37m[1/8/2024, 10:35:22 PM] [39m[31m====================[39m
+[37m[1/8/2024, 10:35:23 PM] [39mLoaded plugin: homebridge-z2m@1.9.3
+[37m[1/8/2024, 10:35:23 PM] [39mRegistering platform 'homebridge-z2m.zigbee2mqtt'
+[37m[1/8/2024, 10:35:23 PM] [39m---
+[37m[1/8/2024, 10:35:24 PM] [39mLoaded plugin: @0x5e/homebridge-tuya-platform@1.7.0-beta.52
+[37m[1/8/2024, 10:35:24 PM] [39mRegistering platform '@0x5e/homebridge-tuya-platform.TuyaPlatform'
+[37m[1/8/2024, 10:35:24 PM] [39m---
+[37m[1/8/2024, 10:35:24 PM] [39mLoaded plugin: @tuxbox/homebridge-homeassistant@1.0.6-beta.12
+[37m[1/8/2024, 10:35:24 PM] [39mRegistering platform '@tuxbox/homebridge-homeassistant.HombridgePluginHomeassistant'
+[37m[1/8/2024, 10:35:24 PM] [39m---
+[37m[1/8/2024, 10:35:24 PM] [39mLoading 4 platforms...
+[37m[1/8/2024, 10:35:24 PM] [39m[36m[HombridgePluginHomeassistant][39m Initializing HombridgePluginHomeassistant platform...
+[37m[1/8/2024, 10:35:24 PM] [39m[36m[HombridgePluginHomeassistant][39m Initializing child bridge 0E:BF:D5:A9:BD:90
+[37m[1/8/2024, 10:35:24 PM] [39m[36m[zigbee2mqtt][39m Initializing zigbee2mqtt platform...
+[37m[1/8/2024, 10:35:24 PM] [39m[36m[zigbee2mqtt][39m Initializing child bridge 0E:30:BF:4E:E2:C6
+[37m[1/8/2024, 10:35:24 PM] [39m[36m[Tuya][39m Initializing TuyaPlatform platform...
+[37m[1/8/2024, 10:35:24 PM] [39m[36m[Tuya][39m Initializing child bridge 0E:84:B2:53:F7:63
+Setup Payload:
+X-HM://002431D97IIWV
+Enter this code with your HomeKit app on your iOS device to pair with Homebridge:
+[30m[47m                       [49m[39m
+[30m[47m    ┌────────────┐     [49m[39m
+[30m[47m    │ 371-29-307 │     [49m[39m
+[30m[47m    └────────────┘     [49m[39m
+[30m[47m                       [49m[39m
+[37m[1/8/2024, 10:35:24 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (Homebridge 1D39) is running on port 51105.
+[37m[1/8/2024, 10:35:26 PM] [39m[36m[@tuxbox/homebridge-homeassistant][39m Launched child bridge with PID 8637
+[37m[1/8/2024, 10:35:26 PM] [39m[36m[Tuya][39m Launched child bridge with PID 8639
+[37m[1/8/2024, 10:35:26 PM] [39m[36m[homebridge-z2m][39m Launched child bridge with PID 8638
+[37m[1/8/2024, 10:35:27 PM] [39mRegistering platform '@tuxbox/homebridge-homeassistant.HombridgePluginHomeassistant'
+[37m[1/8/2024, 10:35:27 PM] [39m[36m[@tuxbox/homebridge-homeassistant][39m Loaded @tuxbox/homebridge-homeassistant v1.0.6-beta.12 child bridge successfully
+[37m[1/8/2024, 10:35:27 PM] [39mLoaded 0 cached accessories from cachedAccessories.0EBFD5A9BD90.
+[37m[1/8/2024, 10:35:27 PM] [39m[36m[@tuxbox/homebridge-homeassistant][39m Configuration: {"protocol":"tcp","host":"localhost","port":1883,"homeassistantBaseTopic":"homeassistant","username":"northisup","password":"upr@aha2pfx9KYP2yzh","platform":"HombridgePluginHomeassistant"}
+[37m[1/8/2024, 10:35:27 PM] [39m[36m[@tuxbox/homebridge-homeassistant][39m Connecting to localhost
+[37m[1/8/2024, 10:35:27 PM] [39mRegistering platform 'homebridge-z2m.zigbee2mqtt'
+[37m[1/8/2024, 10:35:27 PM] [39m[36m[homebridge-z2m][39m Loaded homebridge-z2m v1.9.3 child bridge successfully
+[37m[1/8/2024, 10:35:27 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (@tuxbox/homebridge-homeassistant) is running on port 35756.
+[37m[1/8/2024, 10:35:27 PM] [39mLoaded 1 cached accessories from cachedAccessories.0E30BF4EE2C6.
+[37m[1/8/2024, 10:35:27 PM] [39m[36m[@tuxbox/homebridge-homeassistant][39m connected to tcp://northisup@localhost:1883
+[37m[1/8/2024, 10:35:27 PM] [39m[36m[@tuxbox/homebridge-homeassistant][39m registering MQTT message handler
+[37m[1/8/2024, 10:35:27 PM] [39m[36m[@tuxbox/homebridge-homeassistant][39m subscribing to topic "homeassistant/#"
+[37m[1/8/2024, 10:35:27 PM] [39m[36m[homebridge-z2m][39m Connecting to MQTT server at mqtt://localhost:1883
+[37m[1/8/2024, 10:35:27 PM] [39m[36m[homebridge-z2m][39m Restoring accessory: 0xa4c138342cf0962d (0xa4c138342cf0962d)
+[37m[1/8/2024, 10:35:27 PM] [39m[36m[homebridge-z2m][39m Mapping of property 'action' of device '0xa4c138342cf0962d':
+Button 1 (1):
+	- SINGLE: 1_single
+	- DOUBLE: 1_double
+	- LONG  : 1_hold
+Button 2 (2):
+	- SINGLE: 2_single
+	- DOUBLE: 2_double
+	- LONG  : 2_hold
+[37m[1/8/2024, 10:35:27 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (homebridge-z2m) is running on port 33404.
+[37m[1/8/2024, 10:35:27 PM] [39m[36m[homebridge-z2m][39m Connected to MQTT server
+[37m[1/8/2024, 10:35:27 PM] [39m[36m[homebridge-z2m][39m Using Zigbee2MQTT v1.35.1 (identified via zigbee2mqtt/bridge/info)
+[37m[1/8/2024, 10:35:28 PM] [39mRegistering platform '@0x5e/homebridge-tuya-platform.TuyaPlatform'
+[37m[1/8/2024, 10:35:28 PM] [39m[36m[Tuya][39m Loaded @0x5e/homebridge-tuya-platform v1.7.0-beta.52 child bridge successfully
+[37m[1/8/2024, 10:35:28 PM] [39mLoaded 3 cached accessories from cachedAccessories.0E84B253F763.
+[37m[1/8/2024, 10:35:28 PM] [39m[36m[Tuya][39m Loading accessory from cache: Fingerbot  Sense
+[37m[1/8/2024, 10:35:28 PM] [39m[36m[Tuya][39m Loading accessory from cache: Smart Gateway
+[37m[1/8/2024, 10:35:28 PM] [39m[36m[Tuya][39m Loading accessory from cache: Door Buzzer
+[37m[1/8/2024, 10:35:28 PM] [39m[36m[Tuya][39m Log in to Tuya Cloud.
+[37m[1/8/2024, 10:35:28 PM] [39m[36m[Tuya][39m [TuyaOpenAPI] Login to: https://openapi.tuyaus.com
+[37m[1/8/2024, 10:35:28 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (Tuya) is running on port 30691.
+[37m[1/8/2024, 10:35:28 PM] [39m[36m[Tuya][39m Start MQTT connection.
+[37m[1/8/2024, 10:35:28 PM] [39m[36m[Tuya][39m Fetching home list.
+[37m[1/8/2024, 10:35:29 PM] [39m[36m[Tuya][39m Got home_id=180891657, name=My Home ..
+[37m[1/8/2024, 10:35:29 PM] [39m[36m[Tuya][39m Fetching device list.
+[37m[1/8/2024, 10:35:30 PM] [39m[36m[Tuya][39m Fetching scene list.
+[37m[1/8/2024, 10:35:30 PM] [39m[36m[Tuya][39m Got scene_id=Urfjl4U3yIAlKi2k, name=Door Buzzer
+[37m[1/8/2024, 10:35:30 PM] [39m[36m[Tuya][39m Got 3 device(s) and scene(s).
+[37m[1/8/2024, 10:35:30 PM] [39m[36m[Tuya][39m Device list saved at /var/lib/homebridge/persist/TuyaDeviceList.az1703226782376TkGo5.json
+[37m[1/8/2024, 10:35:30 PM] [39m[36m[Tuya][39m Restoring existing accessory from cache: Fingerbot  Sense
+[37m[1/8/2024, 10:35:30 PM] [39m[36m[Tuya][39m Restoring existing accessory from cache: Smart Gateway
+[37m[1/8/2024, 10:35:30 PM] [39m[36m[Tuya][39m [33mUnsupported device: Smart Gateway.[39m
+[37m[1/8/2024, 10:35:30 PM] [39m[36m[Tuya][39m Restoring existing accessory from cache: Door Buzzer
+[37m[1/8/2024, 10:38:12 PM] [39m[36m[homebridge-z2m][39m [31mZigbee2MQTT is OFFLINE![39m
+[37m[1/8/2024, 10:41:45 PM] [39m[36m[homebridge-z2m][39m [31mZigbee2MQTT is OFFLINE![39m
+[37m[1/8/2024, 10:45:18 PM] [39m[36m[homebridge-z2m][39m [31mZigbee2MQTT is OFFLINE![39m
+[37m[1/8/2024, 10:49:27 PM] [39m[36m[homebridge-z2m][39m [31mZigbee2MQTT is OFFLINE![39m

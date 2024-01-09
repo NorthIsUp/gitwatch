@@ -1,0 +1,69 @@
+{
+    "bridge": {
+        "name": "Homebridge 1D39",
+        "username": "0E:D5:4F:E5:1D:39",
+        "port": 51105,
+        "pin": "371-29-307",
+        "advertiser": "bonjour-hap"
+    },
+    "accessories": [],
+    "platforms": [
+        {
+            "name": "Config",
+            "port": 8581,
+            "platform": "config"
+        },
+        {
+            "protocol": "tcp",
+            "host": "localhost",
+            "port": 1883,
+            "homeassistantBaseTopic": "homeassistant",
+            "username": "northisup",
+            "password": "upr@aha2pfx9KYP2yzh",
+            "platform": "HombridgePluginHomeassistant"
+        },
+        {
+            "mqtt": {
+                "base_topic": "zigbee2mqtt",
+                "server": "mqtt://localhost:1883",
+                "reject_unauthorized": false,
+                "keepalive": 60,
+                "version": 4,
+                "disable_qos": false
+            },
+            "defaults": {
+                "exclude": false
+            },
+            "exclude_grouped_devices": false,
+            "platform": "zigbee2mqtt",
+            "_bridge": {
+                "username": "0E:30:BF:4E:E2:C6",
+                "port": 33404
+            }
+        },
+        {
+            "name": "Tuya",
+            "options": {
+                "projectType": "2",
+                "endpoint": "https://openapi.tuyaus.com",
+                "accessId": "pergg8ts5uq3cr7fc9qv",
+                "accessKey": "cc1dea20b6284e2daaa15922688d3d0f",
+                "countryCode": 1,
+                "username": "adam+tuya@northisup.com",
+                "password": "penitent-ivy9",
+                "appSchema": "tuyaSmart",
+                "deviceOverrides": [
+                    {
+                        "id": "eb88d7qheheyaicr"
+                    }
+                ],
+                "debug": false
+            },
+            "_bridge": {
+                "username": "0E:84:B2:53:F7:63",
+                "port": 30691
+            },
+            "platform": "TuyaPlatform"
+        }
+    ]
+}

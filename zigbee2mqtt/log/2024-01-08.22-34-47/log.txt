@@ -1,0 +1,17 @@
+info  2024-01-08 22:34:47: Logging to console and directory: '/app/data/log/2024-01-08.22-34-47' filename: log.txt
+info  2024-01-08 22:34:47: Starting Zigbee2MQTT version 1.35.1 (commit #9eaaa0f)
+info  2024-01-08 22:34:47: Starting zigbee-herdsman (0.30.0)
+info  2024-01-08 22:34:51: zigbee-herdsman started (resumed)
+info  2024-01-08 22:34:51: Coordinator firmware version: '{"meta":{"maintrel":1,"majorrel":2,"minorrel":7,"product":1,"revision":20210708,"transportrev":2},"type":"zStack3x0"}'
+info  2024-01-08 22:34:52: Currently 1 devices are joined:
+info  2024-01-08 22:34:52: 0xa4c138342cf0962d (0xa4c138342cf0962d): TS0042 - TuYa Wireless switch with 2 buttons (EndDevice)
+warn  2024-01-08 22:34:52: `permit_join` set to  `true` in configuration.yaml.
+warn  2024-01-08 22:34:52: Allowing new devices to join.
+warn  2024-01-08 22:34:52: Set `permit_join` to `false` once you joined all devices.
+info  2024-01-08 22:34:52: Zigbee: allowing new devices to join.
+info  2024-01-08 22:34:52: Connecting to MQTT server at mqtt://mqtt
+info  2024-01-08 22:34:52: Connected to MQTT server
+info  2024-01-08 22:34:52: MQTT publish: topic 'zigbee2mqtt/bridge/state', payload 'online'
+info  2024-01-08 22:34:52: Started frontend on port 8080
+info  2024-01-08 22:34:52: MQTT publish: topic 'zigbee2mqtt/bridge/config', payload '{"commit":"9eaaa0f","coordinator":{"meta":{"maintrel":1,"majorrel":2,"minorrel":7,"product":1,"revision":20210708,"transportrev":2},"type":"zStack3x0"},"log_level":"info","network":{"channel":11,"extendedPanID":"0x00124b002a2f461c","panID":6754},"permit_join":true,"version":"1.35.1"}'
+info  2024-01-08 22:34:52: Zigbee2MQTT started!

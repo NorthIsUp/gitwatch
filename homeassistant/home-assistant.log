@@ -1,0 +1,82 @@
+2024-01-08 20:48:34.551 WARNING (Recorder) [homeassistant.components.recorder.util] The system could not validate that the sqlite3 database at //config/home-assistant_v2.db was shutdown cleanly
+2024-01-08 20:48:34.665 WARNING (Recorder) [homeassistant.components.recorder.util] Ended unfinished session (id=2 from 2024-01-09 04:45:17.487628)
+2024-01-08 20:48:58.740 WARNING (MainThread) [zigpy_znp.uart] Lost connection
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/serial_asyncio_fast/__init__.py", line 132, in _read_ready
+    data = self._serial.read(self._max_read_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/serial/serialposix.py", line 595, in read
+    raise SerialException(
+serial.serialutil.SerialException: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2024-01-08 20:56:23.693 WARNING (MainThread) [zigpy.application] Watchdog failure
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/zigpy_znp/api.py", line 1059, in request
+    response = await response_future
+               ^^^^^^^^^^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/zigpy/application.py", line 665, in _watchdog_loop
+    await self.watchdog_feed()
+  File "/usr/local/lib/python3.11/site-packages/zigpy/application.py", line 647, in watchdog_feed
+    await self._watchdog_feed()
+  File "/usr/local/lib/python3.11/site-packages/zigpy_znp/zigbee/application.py", line 628, in _watchdog_feed
+    await self._znp.request(c.SYS.Ping.Req())
+  File "/usr/local/lib/python3.11/site-packages/zigpy_znp/api.py", line 1055, in request
+    async with async_timeout.timeout(
+  File "/usr/local/lib/python3.11/site-packages/async_timeout/__init__.py", line 141, in __aexit__
+    self._do_exit(exc_type)
+  File "/usr/local/lib/python3.11/site-packages/async_timeout/__init__.py", line 228, in _do_exit
+    raise asyncio.TimeoutError
+TimeoutError
+2024-01-08 20:56:23.836 WARNING (MainThread) [homeassistant.helpers.dispatcher] Unable to remove unknown dispatcher <bound method GroupProbe._reprobe_group of <homeassistant.components.zha.core.discovery.GroupProbe object at 0x7f9792c610>>
+2024-01-08 20:56:23.838 WARNING (MainThread) [homeassistant.helpers.dispatcher] Unable to remove unknown dispatcher <bound method GroupProbe._reprobe_group of <homeassistant.components.zha.core.discovery.GroupProbe object at 0x7f9792c610>>
+2024-01-08 20:56:23.838 WARNING (MainThread) [homeassistant.helpers.dispatcher] Unable to remove unknown dispatcher <bound method GroupProbe._reprobe_group of <homeassistant.components.zha.core.discovery.GroupProbe object at 0x7f9792c610>>
+2024-01-08 20:56:23.838 WARNING (MainThread) [homeassistant.helpers.dispatcher] Unable to remove unknown dispatcher <bound method GroupProbe._reprobe_group of <homeassistant.components.zha.core.discovery.GroupProbe object at 0x7f9792c610>>
+2024-01-08 21:06:21.501 WARNING (MainThread) [zigpy.application] Watchdog failure
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/zigpy_znp/api.py", line 1059, in request
+    response = await response_future
+               ^^^^^^^^^^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/zigpy/application.py", line 665, in _watchdog_loop
+    await self.watchdog_feed()
+  File "/usr/local/lib/python3.11/site-packages/zigpy/application.py", line 647, in watchdog_feed
+    await self._watchdog_feed()
+  File "/usr/local/lib/python3.11/site-packages/zigpy_znp/zigbee/application.py", line 628, in _watchdog_feed
+    await self._znp.request(c.SYS.Ping.Req())
+  File "/usr/local/lib/python3.11/site-packages/zigpy_znp/api.py", line 1055, in request
+    async with async_timeout.timeout(
+  File "/usr/local/lib/python3.11/site-packages/async_timeout/__init__.py", line 141, in __aexit__
+    self._do_exit(exc_type)
+  File "/usr/local/lib/python3.11/site-packages/async_timeout/__init__.py", line 228, in _do_exit
+    raise asyncio.TimeoutError
+TimeoutError
+2024-01-08 21:06:21.624 WARNING (MainThread) [homeassistant.helpers.dispatcher] Unable to remove unknown dispatcher <bound method GroupProbe._reprobe_group of <homeassistant.components.zha.core.discovery.GroupProbe object at 0x7f9792c610>>
+2024-01-08 21:06:21.624 WARNING (MainThread) [homeassistant.helpers.dispatcher] Unable to remove unknown dispatcher <bound method GroupProbe._reprobe_group of <homeassistant.components.zha.core.discovery.GroupProbe object at 0x7f9792c610>>
+2024-01-08 21:06:21.624 WARNING (MainThread) [homeassistant.helpers.dispatcher] Unable to remove unknown dispatcher <bound method GroupProbe._reprobe_group of <homeassistant.components.zha.core.discovery.GroupProbe object at 0x7f9792c610>>
+2024-01-08 21:06:21.625 WARNING (MainThread) [homeassistant.helpers.dispatcher] Unable to remove unknown dispatcher <bound method GroupProbe._reprobe_group of <homeassistant.components.zha.core.discovery.GroupProbe object at 0x7f9792c610>>
+2024-01-08 21:21:27.345 WARNING (MainThread) [zigpy_znp.uart] Lost connection
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/serial_asyncio_fast/__init__.py", line 132, in _read_ready
+    data = self._serial.read(self._max_read_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/serial/serialposix.py", line 595, in read
+    raise SerialException(
+serial.serialutil.SerialException: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2024-01-08 21:29:47.975 WARNING (MainThread) [zigpy_znp.uart] Lost connection
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/serial_asyncio_fast/__init__.py", line 132, in _read_ready
+    data = self._serial.read(self._max_read_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/serial/serialposix.py", line 595, in read
+    raise SerialException(
+serial.serialutil.SerialException: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2024-01-08 22:07:11.455 WARNING (SyncWorker_3) [root] Waiting for authorization...
+2024-01-08 22:07:25.298 WARNING (SyncWorker_3) [root] Authorization cancelled.

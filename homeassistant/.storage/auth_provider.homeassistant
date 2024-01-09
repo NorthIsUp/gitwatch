@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "auth_provider.homeassistant",
+  "data": {
+    "users": [
+      {
+        "username": "northisup",
+        "password": "JDJiJDEyJGFtcXcvcUdtaDBTRlJMck92bDFpYWVTTk52N1RNNzUuVFN1STNUbjR2RUs4VmkxNTRLS0lT"
+      }
+    ]
+  }
+}
