@@ -8,7 +8,7 @@ COPY gitwatch.sh ./
 
 RUN chmod 755 -- *.sh
 
-RUN git config --global credential.helper '!f() { sleep 1; echo "username=$GITHUB_USERNAME" ; echo "token=$GITHUB_TOKEN"; }; f'
+RUN git config --global credential.helper '!f() { test $1 = get && echo "username=$GIT_USER" && echo "password=$GIT_PASS"; }; f'
 RUN git config --global --add safe.directory '*'
 RUN git config --global --add --bool push.autoSetupRemote true
 
