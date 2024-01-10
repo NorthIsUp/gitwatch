@@ -35,6 +35,7 @@
 #   and will abort if either command (or `which`) is not found.
 #
 
+[[ "$DEBUG" ]] && set -x
 REMOTE=""
 BRANCH=""
 SLEEP_TIME=2
