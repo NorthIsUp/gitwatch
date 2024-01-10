@@ -46,6 +46,9 @@ LISTCHANGES_COLOR="--color=always"
 GIT_DIR=""
 SKIP_IF_MERGING=0
 
+git config --global user.email "$GIT_EMAIL"
+git config --global user.name "$GIT_NAME"
+
 # Print a message about how to use this script
 shelp() {
   echo "gitwatch - watch file or directory and git commit all changes as they happen"
